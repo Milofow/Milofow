@@ -1,6 +1,9 @@
-#Portfolio Milo Timmermans
+# Portfolio Milo Timmermans
 
-##Learning Outcomes
+
+
+
+## Learning Outcomes
 
 ### You design and build user-friendly, full-stack web applications.
 
