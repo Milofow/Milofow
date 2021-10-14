@@ -1,5 +1,14 @@
 ## Create and deploy docker
 
+
+Create docker file 
+```FROM openjdk:11
+EXPOSE <PORT>
+ADD target/<PROJECT_NAME>.jar <PROJECT_NAME>.jar
+ENTRYPOINT ["java", "-jar", "/<PROJECT_NAME>"]```
+
+
+
 1. create a "Dockerfile" with special commands to build your docker from your project
 2. make sure for java applications there is a jar file from your project and rename it to projectname.jar if this is not the case use ```mvn package``` to add it (dont forget to rename it!
 3. run ```Docker build -t username/your-project-name . ```
