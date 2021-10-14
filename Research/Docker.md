@@ -2,10 +2,12 @@
 
 
 Create docker file 
-```FROM openjdk:11
+```
+FROM openjdk:11
 EXPOSE <PORT>
 ADD target/<PROJECT_NAME>.jar <PROJECT_NAME>.jar
-ENTRYPOINT ["java", "-jar", "/<PROJECT_NAME>"]```
+ENTRYPOINT ["java", "-jar", "/<PROJECT_NAME>"]
+```
 
 
 
