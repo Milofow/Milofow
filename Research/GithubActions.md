@@ -19,6 +19,8 @@ which events: https://docs.github.com/en/actions/learn-github-actions/events-tha
 
 
 ## Troubleshoot
+Application error op azure is meestal dat app niet kan opstarten zie image fix hieronder
+
 
 if image is not build correctly into docker reference to url docker image is probably wrong try ```${{ secrets.DOCKER_HUB_USERNAME }}/devices-service:latest```
 
