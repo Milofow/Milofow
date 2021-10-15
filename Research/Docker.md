@@ -28,7 +28,8 @@ for creating a executable jar build from your application automatically you have
 
 current working dockerfile mvn spring java format is not working
 
-```FROM maven:3.8.3-jdk-11 AS build-env
+```
+FROM maven:3.8.3-jdk-11 AS build-env
 
 WORKDIR /app
 
