@@ -23,6 +23,10 @@ this will create a repo on dockerhub from there you can clone it to a server. it
 
 
 
+for creating a executable jar build from your application automatically you have to adjust your docker file: tutorial https://octopus.com/blog/java-ci-cd-co/from-jar-to-docker
+
+
+
 
 ## Troubleshoot
 
