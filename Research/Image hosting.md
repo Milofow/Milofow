@@ -36,58 +36,71 @@ The last thing is compressing images which can sometimes be done without losing 
 
 If you keep multiple versions of the same image with different dimensions (e.g. 300px x 300px) you can serve your pages faster rather than letting software do it for you. Think about thumbnails aswell as the full image on a details page for example. 
 
-## Directly inside in a database
+<br>
 
-BLOB column
+## Where to store images?
 
-### Reasons to store or not to store images in a database
+Here are a couple of ways to store your images.
 
-> I'm in charge of some applications that manage many TB of images. We've found that storing file paths in the database to be best.
-> 
-> There are a couple of issues:
-> 
-> * database storage is usually more expensive than file system storage
-> * you can super-accelerate file system access with standard off the shelf products
->     * for example, many web servers use the operating system's sendfile() system call to asynchronously send a file directly from the file system to the network interface. Images stored in a database don't benefit from this optimization.
-> * things like web servers, etc, need no special coding or processing to access images in the file system
+### Database
+
+The way to store images inside a database is inside the BLOB column. BLOB stands for binary large object.
+
+### Advantages
+
 > * databases win out where transactional integrity between the image and metadata are important.
 >     * it is more complex to manage integrity between db metadata and file system data
 >     * it is difficult (within the context of a web application) to guarantee data has been flushed to disk on the filesystem
->     
-> source: <cite>https://stackoverflow.com/questions/3748/storing-images-in-db-yea-or-nay</cite>
+
+<i> Source: https://stackoverflow.com/questions/3748/storing-images-in-db-yea-or-nay </i>
 
 
-
-> As with most issues, it's not as simple as it sounds. There are cases where it would make sense to store the images in the database.
-> 
 > * You are storing images that are changing dynamically, say invoices and you wanted to get an invoice as it was on 1 Jan 2007?
 > * The government wants you to maintain 6 years of history
 > * Images stored in the database do not require a different backup strategy. Images stored on filesystem do
 > * It is easier to control access to the images if they are in a database. Idle admins can access any folder on disk. It takes a really determined admin to go snooping in a database to extract the images
-> 
-> On the other hand there are problems associated
+
+<i> Source: https://stackoverflow.com/questions/3748/storing-images-in-db-yea-or-nay </i>
+
+<br>
+
+### Disadvantages
+
+> * database storage is usually more expensive than file system storage
+> * you can super-accelerate file system access with standard off the shelf products
+>     * for example, many web servers use the operating system's sendfile() system call to asynchronously send a file directly from the file system to the network interface. Images stored in a database don't benefit from this optimization.
+> * things like web servers, etc, need no special coding or processing to access images in the file system
+
+<i> Source: https://stackoverflow.com/questions/3748/storing-images-in-db-yea-or-nay </i>
+
 > * Require additional code to extract and stream the images
 > * Latency may be slower than direct file access
 > * Heavier load on the database server
-> 
-> source: <cite>https://stackoverflow.com/questions/3748/storing-images-in-db-yea-or-nay</cite>
 
+<i> Source: https://stackoverflow.com/questions/3748/storing-images-in-db-yea-or-nay </i>
 
+<br>
 
-## Inside a file storage system with the paths inside the database
+### File storage system
 
-Cloudinary
-Amazon S3
+The images will be hosted on a separate server and the database table only contains the path to that image.
 
-> Use Content Delivery Networks
+Examples of these services:
+* [Cloudinary](https://cloudinary.com/)
+* [Amazon S3](https://aws.amazon.com/s3/)
 
-> Hosting images on the same server you use for your website is a terribly inefficient way to deliver images to your website’s visitors. Uploading all images to the same server > that’s used to run your website puts a huge strain on the server, which ends up slowing down your load times. The end result of slow load times on your site is reduced traffic > and thus lower sales.
+To optimise this system you can use a CDN (content delivery network) explained here:
 
 > One of the best things you can do to manage your images is to upload them for hosting on a content delivery network (CDN). A CDN is essentially a globally distributed network > of servers. When someone browses your site, the CDN routes the user to the server nearest to their location, which dramatically improves the performance of your pages by      > speeding up the image delivery to the end user.  
-> source: <cite>https://www.catchpoint.com/blog/image-upload-best-practices</cite>
+
+<i> Source: https://www.catchpoint.com/blog/image-upload-best-practices </i>
+
+<br>
 
 ## Inside the root folder with direct paths inside the pages
 
-##
+The last discussed option is storing your images along side your webpages. Usually not a good idea except if you're dealing with a very small website.
 
+> Hosting images on the same server you use for your website is a terribly inefficient way to deliver images to your website’s visitors. Uploading all images to the same server > that’s used to run your website puts a huge strain on the server, which ends up slowing down your load times. The end result of slow load times on your site is reduced traffic > and thus lower sales.
 
+<i> Source: https://www.catchpoint.com/blog/image-upload-best-practices </i>
