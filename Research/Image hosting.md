@@ -1,5 +1,40 @@
-# Ways to store images for web development
+# Image storing for web development
 
+While developing websites you're probably gonna need images. How and where do you store these images and what are some best practices?
+
+A couple of things to keep in mind while storing images is caching, (relatable) quality and different versions with different dimensions to name a few.
+
+<br>
+
+### Caching
+
+Caching makes sure your webpage visitors don't have to download all your webpage's images every time they visit your website. Instead they will be saved inside the visitor's browser.
+
+A problem that might occur with caching is not showing updated images, but instead the older cached ones. One way to solve this problem will be explained in this article:
+
+> You can get your developer to automatically add the MD5 hash of all uploaded images to their URLs, as they are uploaded. The MD5 is essentially an image’s fingerprint. When an > image changes, so does the MD5 and thus the URL of the image, which means that each time you update your images, the browser is forced to grab the new image.
+
+<i> Source: https://www.catchpoint.com/blog/image-upload-best-practices </i>
+
+<br>
+
+### Quality
+
+It starts off with the right image formats, this piece of the article explains why it's better to use JPEG:
+
+> The main thing to note is that you should never upload PNGs as photographs. There is typically no perceivable difference in quality between a JPEG photo and a PNG photo, but  > the latter format tends to result in images with huge file sizes that waste a lot of bandwidth. Only ever use PNGs for logos, charts, or when you need transparency.  
+
+<i> Source: https://www.catchpoint.com/blog/image-upload-best-practices </i>
+
+Reduce the quality from your images, high resolution images aren't neccessary most of the time. Reducing quality will result into smaller size which positively affects the user experience because of faster response time.
+
+The last thing is compressing images which can sometimes be done without losing quality but reduces that file size.
+
+<br>
+
+### Different versions
+
+If you keep multiple versions of the same image with different dimensions (e.g. 300px x 300px) you can serve your pages faster rather than letting software do it for you. Think about thumbnails aswell as the full image on a details page for example. 
 
 ## Directly inside in a database
 
@@ -44,14 +79,15 @@ BLOB column
 Cloudinary
 Amazon S3
 
+> Use Content Delivery Networks
+
+> Hosting images on the same server you use for your website is a terribly inefficient way to deliver images to your website’s visitors. Uploading all images to the same server > that’s used to run your website puts a huge strain on the server, which ends up slowing down your load times. The end result of slow load times on your site is reduced traffic > and thus lower sales.
+
+> One of the best things you can do to manage your images is to upload them for hosting on a content delivery network (CDN). A CDN is essentially a globally distributed network > of servers. When someone browses your site, the CDN routes the user to the server nearest to their location, which dramatically improves the performance of your pages by      > speeding up the image delivery to the end user.  
+> source: <cite>https://www.catchpoint.com/blog/image-upload-best-practices</cite>
+
 ## Inside the root folder with direct paths inside the pages
 
 ##
 
 
-
-
-https://www.catchpoint.com/blog/image-upload-best-practices
-https://www.reddit.com/r/webdev/comments/3iy1z1/how_should_i_store_useruploaded_images_for_a_web/
-https://stackoverflow.com/questions/17121851/how-should-i-store-the-images-for-my-website
-https://www.researchgate.net/post/How_to_store_images_photos_in_database_in_mysql
