@@ -24,6 +24,12 @@ I've chosen to get to know the React framework to create my front-end. I've chos
 #### Back-end
 Previous semester I worked with C# language for the back-end, because I like to know a bit of everything I've chosen to work with another language that is Java. My next search was for a good framework and I stranded with the popular Spring framework.
 
+##### MQTT
+Here I build a simple form for sending a message to services subscribed to the topic 'presence'. 
+![image](https://user-images.githubusercontent.com/73555911/142778419-c3f36e67-2fbe-425b-ae89-df1d5d518d63.png)
+![image](https://user-images.githubusercontent.com/73555911/142778454-6641c44f-4ec8-418e-b13c-96c66247359c.png)
+
+
 ##### Devices service
 
 
