@@ -31,6 +31,8 @@ Here I build a simple form for sending a message to services subscribed to the t
 
 
 ##### Devices service
+##### Database ORM
+##### Communication Protocols
 
 
 #### UX
@@ -39,12 +41,21 @@ Here I build a simple form for sending a message to services subscribed to the t
 
 ### You use software tooling and methodology that continuously monitors and improve the software quality during software development.
 
+#### Integration testing
+#### Unit testing
+#### Acceptation testing
+
+#### Code review with issue
+
 ```Insert proof of concept(s)```
 
 ### You design and implement a (semi)automated software release process that matches the needs of the project context.
+
+#### Branches on pull and push testing and deployment
 
 ```Insert proof of concept(s)```
 
 ### You act in a professional manner during software development and learning.
 
+#### Architecture
 ```Insert proof of concept(s)```
