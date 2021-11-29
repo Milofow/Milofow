@@ -2,6 +2,8 @@
 
 ## Kanban
 
+Kanban is a way of organising your tasks on a board. The simplest form is to divide your tasks into three stages: to do, in progress and done. This way you can get a good overview in just a glance. 
+
 ## Scrum
 
 ## Extreme programming (XP)
