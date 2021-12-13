@@ -38,15 +38,7 @@ Here I build a simple form for sending a message to services subscribed to the t
 
 
 ##### Devices service
-To save some details about each device I needed a database to store this info in. Because this semester is about distributed systems I created a separate API service for handling this. 
-
-API Paths:
-GET: ```/devices/```
-GET: ```/devices/{id}```
-POST: ```/devices/new```
-PUT: ```/devices/{id}```
-DELETE: ```/devices/{id}```
-
+Because this semester is about distributed systems I created a separate API service for handling this which can be found [here](https://github.com/Milofow/devices-service)
 
 
 ##### Database ORM
