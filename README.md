@@ -32,6 +32,9 @@ This learning outcomes exists of three subjects to fulfill: a front-end, a back-
 ##### 1. Identity service: Login, Register and account information service with 0Auth2
 I first started off with a login system for my project. I used Auth0 as it works very well and is easy to implement, because of it's good documentation.
 
+![Auth0](https://user-images.githubusercontent.com/73555911/147069214-461c915e-80d1-4cdd-9d13-1fd7956068d2.gif)
+
+
 Sources: auth0 docs and youtube tutorial
 
 ##### 2. MQTT
