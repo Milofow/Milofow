@@ -1,3 +1,13 @@
+What does it mean agile development, the agile manifesto, the agile principles?
+Which agile methods exist and which are most popular?
+Can you explain Scrum in full details, as it is by the book? 
+Can you explain two more agile methods and name a number of interesting features in them different from Scrum? 
+Do you know how software engineers work in practice with agile methods? (to answer this question, we advise that you arrange a visit to a company)
+Which agile management tool would you recommend for use in your project and why?   
+
+
+
+
 # Agile Methods
 
 ## Kanban
