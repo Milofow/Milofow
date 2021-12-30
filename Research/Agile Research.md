@@ -2,7 +2,9 @@
 To deepen my knowledge about the agile work way I'm going to answer some questions about agile and discuss some of the methods and my experience with them.
 
 
+
 ## What does it mean agile development, the agile manifesto, the agile principles?
+
 
 ### Agile development
 To answer this question I'm first going to discuss what the word "agile" means the dictionary website says the following:
@@ -19,11 +21,23 @@ This gives us a better picture of agile development. If we dig a little deeper a
 
 So agile development is a development process that has room for adjusting or just doing things different while still developing a product. Agile development has a lot of tools to help you develop through this way.
 
+
 ### Agile manifesto
-Aside these tools there is also the agile manifesto
+Aside these tools there is also the agile manifesto it is created by 17 people to help other people use agile by doing and helping them do it. This pieces is taken from the manifesto and explains some of its meaning:
+
+> **Individuals and interactions** over processes and tools
+> 
+> **Working software** over comprehensive documentation
+> 
+> **Customer collaboration** over contract negotiation
+> 
+> **Responding to change** over following a plan
+
+<i> Source: https://agilemanifesto.org </i>
 
 
-
+#### The 12 agile principles
+The 12 principles are based on the agile manifesto and can be found [here](https://agilemanifesto.org/principles.html). These principles describe 
 
 
 
@@ -33,12 +47,21 @@ Aside these tools there is also the agile manifesto
 ## Which agile methods exist and which are most popular?
 Below are listed a couple of agile methods with a short introduction:
 
+## Scrum
+## Kanban
+## Exrtreme Programming (XP)
+## Lean development
+## Crystal
+## Agile modeling
+## Adaptive software development (ASD)
+## Feature driven development (FDD)
+## Agile Unified process (AUP)
 
 
 
 
+## Can you explain Scrum in full details, as it is by the book?
 
-## Can you explain Scrum in full details, as it is by the book? 
 
 
 ## Can you explain two more agile methods and name a number of interesting features in them different from Scrum? 
