@@ -1,6 +1,6 @@
-# UX design and research
+# UX design and testing
 
-
+## Introduction
 In semester 3 I have to create a project with my group for the company Mediaan. Here's some context about the company provided by them:
 
 > Mediaan is an international IT company, founded in Heerlen, the Netherlands, in 1969. We are in Heerlen, Amsterdam, Düsseldorf, München and Brussel. We believe
@@ -18,7 +18,25 @@ They turned to us for creating the next project:
 > fashion. Initially you'll focus on the MVP (the most important features) and then continue to flesh out the application.  
 
 
+## Design
 Currently we're working on the next user story: ```As staff I want to be able to see the bill history``` and this document is going to focus on the design for that user story.
+
+For testing purposes I made an interactive prototype in Adobe XD to do usability tests with. 
+
+
+
+
+## Testing
+Here I'll be describing different durability test methods with their results.
+
+### (Un)Moderated usability testing
+I chose moderated testing over unmoderated, so that I can quickly intervene if necessary. It also gives me the opportunity to ask more relevant questions in the process.
+
+
+### Session recording
+I combined the method above with recording the session, so I can take a look at accuring problems
+
+
 
 
 
