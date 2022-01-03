@@ -69,18 +69,17 @@ English:
 
 
 #### Questions for the participants after completing the task
-How long did it take? (<i> I will time how long it takes to complete the task </i>)
+1. How long did it take? (<i> I will time how long it takes to complete the task </i>)
 
-Did you experience any frustration during your task? 
+2. Did you experience any frustration during your task? 
 If so on a scale from 0 to 10, 0 being not frustrated at all and 10 being frustrated at every step.
 
-How was your overall feeling completing your task?
+3. How was your overall feeling completing your task?
 From a scale from 0 to 10, being 0 very unpleasant and 10 being extremely pleasant 
 
-Did the program work effectively? did it feel like you could complete the task fast and simple?
+4. Did the program work effectively? did it feel like you could complete the task fast and simple?
 
-
-Were you confused at any time, if so where?
+5. Were you confused at any time, if so where?
 
 
 
