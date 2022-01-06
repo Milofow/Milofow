@@ -67,17 +67,19 @@ English:
 > To make sure that everything is right, you decide to log into the admin portal and search the receipt history. 
 > You have to find the receipt from table 1 to check if everything is correct. Keep in mind that you have to filter on these dates: 21st until 31st of december. 
 
+<br>
 
-#### Questions for the participants after completing the task
-1. How long did it take? (<i> I will time how long it takes to complete the task </i>)
+#### **My subjects**
 
-2. Did you experience any frustration during your task? 
-If so on a scale from 0 to 10, 0 being not frustrated at all and 10 being frustrated at every step.
+##### **Bente-Aimée**
+Bente-Aimée is 15 years. Because of her age she is, in my opinion, the perfect candidate to test my prototype on. The younger generation grew up with technology and are accustomed to having fast and easy working programs and phones etc. This prototype needs to work as smooth and easy as the technolgy that she is used to. I hope that the prototype I build, lives up to the expactation of a smooth working program. She completed her task in 41 seconds.
 
-3. How was your overall feeling completing your task?
-From a scale from 0 to 10, being 0 very unpleasant and 10 being extremely pleasant 
+##### Questions after the task is completed
+1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?
 
-4. Did the program work effectively? did it feel like you could complete the task fast and simple?
+2. How was your overall feeling while completing the task? From a scale from 0 to 10, with 0 being very unpleasant and 10 being extremely pleasant?
+
+3. Did the prototype work effectively, in your opinion? did it feel like you could complete the task fast and simple?
 
 5. Were you confused at any time, if so where?
 
@@ -90,6 +92,20 @@ From a scale from 0 to 10, being 0 very unpleasant and 10 being extremely pleasa
 ### Session recording
 I combined the method above with recording the task, so I can evaluate the user's behavior
 
+
+
+### A/B test
+When creating the designs for the durability tests, I landed on two design choices. To validate which choice to make I made a survey to confirm yet deny if my design choice was the best suitable for the job. Surprisingly it was the opposite.
+
+
+<table>
+  <tr>
+    <td><img width="453" src="https://user-images.githubusercontent.com/73555911/148367135-8fda0808-4f7e-41a0-b368-32fe345657e6.png"></td>
+  </tr>
+</table>
+
+
+I adjusted my designs from the durability tests, because of the majority choosing for an extra fold out window instead of a pop up window.
 
 
 
