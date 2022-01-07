@@ -91,7 +91,7 @@ Bente-Aimée is 15 years old. Because of her age she is, in my opinion, the perf
 <br>
 
 #### Dirk
-Dirk is 18 years old. Because of Dirk's work experience with catering systems he could help me out with validating the prototype. He completed his task in INSERT SECONDS HERE seconds.
+Dirk is 18 years old. Because of Dirk's work experience with catering systems he could help me out with validating the prototype. He completed his task in 88 seconds.
 
 #### **Questions after the task is completed**
 1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
@@ -109,7 +109,7 @@ Dirk is 18 years old. Because of Dirk's work experience with catering systems he
 <br>
 
 #### Paula
-Paula is 53 years old. She has experience working with accountancy programs and can give a good opinion about my prototype. She completed her task in INSERT SECONDS HERE seconds.
+Paula is 53 years old. She has experience working with accountancy programs and can give a good opinion about my prototype. She completed her task in 94 seconds.
 
 #### **Questions after the task is completed**
 1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
@@ -127,7 +127,7 @@ Paula is 53 years old. She has experience working with accountancy programs and 
 <br>
 
 #### Michel
-Michel is 53 years old. He completed his task in INSERT SECONDS HERE seconds.
+Michel is 53 years old. He completed his task in 58 seconds.
 
 #### **Questions after the task is completed**
 1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
@@ -145,7 +145,7 @@ Michel is 53 years old. He completed his task in INSERT SECONDS HERE seconds.
 <br>
 
 #### Amber
-Amber is 23 years old. She completed her task in INSERT SECONDS HERE seconds.
+Amber is 23 years old. She completed her task in 37 seconds.
 
 #### **Questions after the task is completed**
 1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
@@ -163,9 +163,20 @@ Amber is 23 years old. She completed her task in INSERT SECONDS HERE seconds.
 <br>
 
 ### Session recording
-I combined the method above with recording the task, so I can evaluate the user's behavior
+I combined the method above with recording the task, so I can evaluate the user's behavior. 
 
+<table>
+  <tr>
+    <td><img width="545" src="https://user-images.githubusercontent.com/73555911/148596357-d388a868-b5bc-4626-bd70-f5f7a1355db4.png"></td>
+  </tr>
+</table>
 
+#### A couple of things I noticed while studying the footage
+- Make more clickable like icons and text.
+- Make typing possible for entering the date
+- Give a little bit more context per date
+
+<br>
 
 ### A/B test
 When creating the designs for the durability tests, I landed on two design choices. To validate which choice to make I made a survey to confirm yet deny if my design choice was the best suitable for the job. Surprisingly it was the opposite. See the results down below:
@@ -178,18 +189,20 @@ When creating the designs for the durability tests, I landed on two design choic
 
 In the final prototype I'll have to adjust my designs from the durability tests, because of the majority choosing for an extra fold out window instead of a pop up window.
 
+<br>
 
+## Conclusion
+With all these results I made a new prototype, that looks like:
 
+<table>
+  <tr>
+    <td></td>
+  </tr>
+</table>
 
+This prototype can now be implemented into our application with the same design.
 
-Knowing how to adjust the design and functionality to suit your end-users?
-
-Knowing how to design an corporate identity for the webpage in accordance with your client of the digital identity of your product.
-
-Knowing how to design a flow that will stimulate the end-user the follow the path that will reach the business goals of the application.
-
-
-
+<br>
 
 Sources: 
-https://xd.adobe.com/ideas/process/user-testing/top-7-usability-testing-methods/
+<i> https://xd.adobe.com/ideas/process/user-testing/top-7-usability-testing-methods/ </i>
