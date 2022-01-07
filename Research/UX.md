@@ -17,7 +17,7 @@ They turned to us for creating the next project:
 > have
 > dessert. A restaurant has a new idea to convert the above process to a digital experience.
 
-Meaning we'll need to make a table registration system with a qr code, so people can navigate the menu and order. It also include a restaurant owner's side for inventory and other managing tools.
+Meaning we'll need to make a table registration system with a qr code, so people can navigate to the menu and order using their phones. It also includes a restaurant owner's side for inventory and other managing tools.
 
 
 <br>
@@ -91,7 +91,7 @@ Bente-Aimée is 15 years old. Because of her age she is, in my opinion, the perf
 <br>
 
 #### Dirk
-Dirk is 18 years old. Because of Dirk's work experience with catering systems he could help me out with validating the prototype. He completed his task in 88 seconds.
+Dirk is 18 years old. Because of Dirk's relevant work experience in serving and waiting tables, he could help me out with validating the prototype. He is used to opening tabs and searching for bills. Obviously the restaurant that he worked in has a different system for this, but he can tell me if the prototype is good enough to be used in real life. He completed his task in 88 seconds.
 
 #### **Questions after the task is completed**
 1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
@@ -109,7 +109,7 @@ Dirk is 18 years old. Because of Dirk's work experience with catering systems he
 <br>
 
 #### Paula
-Paula is 53 years old. She has experience working with accountancy programs and can give a good opinion about my prototype. She completed her task in 94 seconds.
+Paula is 53 years old. She has years of experience working with accountancy programs and can give a good opinion about my prototype. The prototype I build should be simple enough that even without the experience, it can be operated. But it could be good to hear from her what she likes and doesn't like in these kind of programs. She completed her task in 94 seconds.
 
 #### **Questions after the task is completed**
 1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
@@ -127,7 +127,7 @@ Paula is 53 years old. She has experience working with accountancy programs and 
 <br>
 
 #### Michel
-Michel is 53 years old. He completed his task in 58 seconds.
+Michel is 53 years old. He has a lot of work experience but normally isn't a big fan of all the online systems and programs. He prefers the old school way, so it will be interesting to see how he handles the prototype. He completed his task in 58 seconds.
 
 #### **Questions after the task is completed**
 1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
@@ -145,7 +145,7 @@ Michel is 53 years old. He completed his task in 58 seconds.
 <br>
 
 #### Amber
-Amber is 23 years old. She completed her task in 37 seconds.
+Amber is 23 years old. She also has some relevant work experience, but she is most experienced in graphic design. Hopefully she can give me some insight in what a smooth running flow looks like for an online system. She completed her task in 37 seconds.
 
 #### **Questions after the task is completed**
 1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
@@ -172,14 +172,14 @@ I combined the method above with recording the task, so I can evaluate the user'
 </table>
 
 #### A couple of things I noticed while studying the footage
-- Make more clickable like icons and text.
+- Make more places clickable like icons and text.
 - Make typing possible for entering the date
 - Give a little bit more context per date
 
 <br>
 
 ### A/B test
-When creating the designs for the durability tests, I landed on two design choices. To validate which choice to make I made a survey to confirm yet deny if my design choice was the best suitable for the job. Surprisingly it was the opposite. See the results down below:
+When creating the designs for the durability tests, I landed on two design choices. To validate which choice to make I made a survey to see which design was more attractive. Surprisingly people chose the design I was least expecting them to pick. See the results down below:
 
 <table>
   <tr>
