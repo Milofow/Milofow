@@ -15,8 +15,9 @@ They turned to us for creating the next project:
 
 > The process in a restaurant is usually the same. Customers get seated, are hand over the menu, order drinks and food, consume the drinks and food and finally
 > have
-> dessert. A restaurant has a new idea to convert the above process to a digital experience. You will be developing the requested proof of concept in an agile
-> fashion. Initially you'll focus on the MVP (the most important features) and then continue to flesh out the application.  
+> dessert. A restaurant has a new idea to convert the above process to a digital experience.
+
+Meaning we'll need to make a table registration system with a qr code, so people can navigate the menu and order. It also include a restaurant owner's side for inventory and other managing tools.
 
 
 <br>
@@ -48,7 +49,7 @@ Aside from the usability tests, I'm also going to do an A/B test, so I created a
 
 
 ## Testing
-Here I'll be describing different durability test methods with their results.
+To prove my designs will work in practice, I need to test them. I have done the following tests to help me gather useful information about the quality of my prototype:
 
 ### (Un)Moderated usability testing
 I chose moderated testing over unmoderated, so that I can quickly intervene if necessary. It also gives me the opportunity to ask more relevant questions in the process. I designed a prototype to simulate the task that my subjects will need to complete. The task that I will be using is the following:
@@ -71,23 +72,95 @@ English:
 
 #### **My subjects**
 
-##### **Bente-Aimée**
-Bente-Aimée is 15 years. Because of her age she is, in my opinion, the perfect candidate to test my prototype on. The younger generation grew up with technology and are accustomed to having fast and easy working programs and phones etc. This prototype needs to work as smooth and easy as the technolgy that she is used to. I hope that the prototype I build, lives up to the expactation of a smooth working program. She completed her task in 41 seconds.
+#### Bente-Aimée
+Bente-Aimée is 15 years old. Because of her age she is, in my opinion, the perfect candidate to test my prototype on. The younger generation grew up with technology and are accustomed to having fast and easy working programs and phones etc. This prototype needs to work as smooth and easy as the technolgy that she is used to. I hope that the prototype I build, lives up to the expactation of a smooth working program. She completed her task in 41 seconds.
 
-##### Questions after the task is completed
-1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?
+#### **Questions after the task is completed**
+1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
+<i> Yes, a 4 on your scale </i>
 
-2. How was your overall feeling while completing the task? From a scale from 0 to 10, with 0 being very unpleasant and 10 being extremely pleasant?
+2. How was your overall feeling while completing the task? From a scale from 0 to 10, with 0 being very unpleasant and 10 being extremely pleasant?  
+<i> 5,5 </i>
 
-3. Did the prototype work effectively, in your opinion? did it feel like you could complete the task fast and simple?
+3. Did the prototype work effectively, in your opinion? Did it feel like you could complete the task with little trouble or without thinking too much?  
+<i> Yes, it could be more effectively if the bills were sorted on table numbers instead of the bill numbers. Because I had to search for a table number and not the bill number. </i>
 
-5. Were you confused at any time, if so where?
+4. Were you confused at any time, if so where and why?  
+<i> Yes, I assumed clicking on the date itself would show the bills, instead I had to search for the little arrow to open op the bills. </i>
 
+<br>
 
+#### Dirk
+Dirk is 18 years old. Because of Dirk's work experience with catering systems he could help me out with validating the prototype. He completed his task in INSERT SECONDS HERE seconds.
 
+#### **Questions after the task is completed**
+1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
+<i> Yes, a 2 on your scale </i>
 
+2. How was your overall feeling while completing the task? From a scale from 0 to 10, with 0 being very unpleasant and 10 being extremely pleasant?  
+<i> 8 </i>
 
+3. Did the prototype work effectively, in your opinion? Did it feel like you could complete the task with little trouble or without thinking too much?  
+<i> Yes, now that I know how it works, it would be easy to use it every day. It's way easier then systems I worked with. </i>
 
+4. Were you confused at any time, if so where and why?  
+<i> Yes, just for a second because clicking on the date instead of the arrow didn't work. The amount of dates while opening the calender to filter confused me, because there were so many, the calender almost contains two whole months. In my opinion I would only show one month with a couple days aside. </i>
+
+<br>
+
+#### Paula
+Paula is 53 years old. She has experience working with accountancy programs and can give a good opinion about my prototype. She completed her task in INSERT SECONDS HERE seconds.
+
+#### **Questions after the task is completed**
+1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
+<i> No, I didn't experience any frustration </i>
+
+2. How was your overall feeling while completing the task? From a scale from 0 to 10, with 0 being very unpleasant and 10 being extremely pleasant?  
+<i> 5 </i>
+
+3. Did the prototype work effectively, in your opinion? Did it feel like you could complete the task with little trouble or without thinking too much?  
+<i> Yes, until I had to search for the bill of table number 1, because they were sorted on bill number instead of table number and I was looking for the table numbers. </i>
+
+4. Were you confused at any time, if so where and why?  
+<i> Yes, because if what I answered in the previous questions. I rather search on table number then bill number. </i>
+
+<br>
+
+#### Michel
+Michel is 53 years old. He completed his task in INSERT SECONDS HERE seconds.
+
+#### **Questions after the task is completed**
+1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
+<i> Yes, a 1 on your scale </i>
+
+2. How was your overall feeling while completing the task? From a scale from 0 to 10, with 0 being very unpleasant and 10 being extremely pleasant?  
+<i> 9 </i>
+
+3. Did the prototype work effectively, in your opinion? Did it feel like you could complete the task with little trouble or without thinking too much?  
+<i> Yes, it was very simple. </i>
+
+4. Were you confused at any time, if so where and why?  
+<i> No, it was very clear at all times. </i>
+
+<br>
+
+#### Amber
+Amber is 23 years old. She completed her task in INSERT SECONDS HERE seconds.
+
+#### **Questions after the task is completed**
+1. Did you experience any frustration during your task? If so on a scale from 0 to 10, with 0 being not frustrated at all and 10 being frustrated at every step, how frustrated were you?  
+<i> Yes, a 3 on your scale </i>
+
+2. How was your overall feeling while completing the task? From a scale from 0 to 10, with 0 being very unpleasant and 10 being extremely pleasant?  
+<i> 8 </i>
+
+3. Did the prototype work effectively, in your opinion? Did it feel like you could complete the task with little trouble or without thinking too much?  
+<i> Yes, </i>
+
+4. Were you confused at any time, if so where and why?  
+<i> No, not really confused if anything see previous question </i>
+
+<br>
 
 ### Session recording
 I combined the method above with recording the task, so I can evaluate the user's behavior
@@ -95,8 +168,7 @@ I combined the method above with recording the task, so I can evaluate the user'
 
 
 ### A/B test
-When creating the designs for the durability tests, I landed on two design choices. To validate which choice to make I made a survey to confirm yet deny if my design choice was the best suitable for the job. Surprisingly it was the opposite.
-
+When creating the designs for the durability tests, I landed on two design choices. To validate which choice to make I made a survey to confirm yet deny if my design choice was the best suitable for the job. Surprisingly it was the opposite. See the results down below:
 
 <table>
   <tr>
@@ -104,8 +176,7 @@ When creating the designs for the durability tests, I landed on two design choic
   </tr>
 </table>
 
-
-I adjusted my designs from the durability tests, because of the majority choosing for an extra fold out window instead of a pop up window.
+In the final prototype I'll have to adjust my designs from the durability tests, because of the majority choosing for an extra fold out window instead of a pop up window.
 
 
 
