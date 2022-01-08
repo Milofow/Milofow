@@ -38,9 +38,16 @@ The first thing that comes to my mind, is tipping. I worked as a snowboard instr
 
 In the end I think it's important to stay open minded and have good intentions while facing different cultures. Ofcourse it comes in handy to know some aspects but you'll also have to get to know the culture by discovering and social interactions. 
 
-### How can cultures be clustured?
+### How can cultures be clustered?
+To better answer this question I want to know what clustured really means. Therefore I added the question below:
 
+#### What does cluster mean?
+The cambridge dictionary says the following:
+> a group of similar things that are close together, sometimes surrounding something
+<i> Source: https://dictionary.cambridge.org/dictionary/english/cluster?q=clustered </i>
 
+So the question is how can cultures live together in the same environment?  
+This happens when people migrate to another country because of work, social life or characteristic preference of the country. A multicultural society will form out of this actions and to make it work we have to start with respecting each other's culture and treat everyone equally despite their culture.
 
 
 
