@@ -20,33 +20,40 @@ The book also has a quote from Ting-Toomey defining culture as:
 <i> Source: (Managing Intercultural Conflict Effectively (2001), Stella Ting-Toomey, John G. Oetzel, p. 9) </i>
 
 
-
+<br>
 
 
 ### Which cultural aspects would you keep in mind when facing cultural differences?
 To answer this question I want to get clear what a cultural aspect is and maybe get some examples so I can start working from there.
 
-
 #### What are cultural aspects?
 [This answer](https://www.quora.com/What-is-an-example-of-cultural-aspects) on quora gives a good example about some aspects and also clears what it is.
 
-The first thing that comes to my mind, is tipping. I worked as a snowboard instructor for a while and everytime I had Americans in my class they almost everytime gave me a huge tip. This differs from "us dutch people" because in our cultural it's not the norm to leave tips. I don't consider this one of the most important aspects. It could cause for an awkward situation, but you'll probably learn it fast enough, like me when experiencing such an event.
+The first thing that comes to my mind, is tipping. I worked as a snowboard instructor for a while and everytime I had Americans in my class, they almost everytime gave me a huge tip. This differs from "us dutch people" because in our cultural it's not the norm to leave tips. I don't consider this one of the most important aspects. It could cause for an awkward situation the first time, but you will get used to it quickly. 
 
 
 
 
 
 
-
-But in the end it's important to stay open minded and have good intentions while facing cultural differences. Ofcourse it comes in handy to know some aspects but you also have to get to know the culture and by doing so, you'll learn the customs and find your way in a culture just by social interactions. 
+In the end I think it's important to stay open minded and have good intentions while facing different cultures. Ofcourse it comes in handy to know some aspects but you'll also have to get to know the culture by discovering and social interactions. 
 
 ### How can cultures be clustured?
+
+
+
+
 
 
 ### Can you give examples for things going not as expected when interacting with people from other cultures? What and why went differently?
 
 
+
+
 ### What is your culture?
+First of all I grew up in the Netherlands, so to be correct I have the dutch culture. This means three kisses when congratulating someone, being very direct in a conversation (in the south it's a little bit less were I'm from but still), having dinner early, biking everywhere, etc. All of these don't exactly apply to me, but that's also how I was raised by my parents. Ofcourse I have some dutch culture like eating habits or short sentences that everyone says during meal time, congratulating someone, etc.
+
+If I have to describe my culture it is more like accepting everyone around me the way they are. I try to be respectful to everyone and everything, but to also help people that might need it. I'm a people pleaser, which is a good thing but can also be a bad one. I love to learn about a lot of different things including other people's culture and can admire them for it. 
 
 
 ### How would you act in the future when you know that you need to communicate or collaborate with a person from another culture?
