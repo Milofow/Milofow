@@ -29,12 +29,14 @@ To answer this question I want to get clear what a cultural aspect is and maybe 
 #### What are cultural aspects?
 [This answer](https://www.quora.com/What-is-an-example-of-cultural-aspects) on quora gives a good example about some aspects and also clears what it is.
 
+> Culture consists of the beliefs, behaviors, objects, and other characteristics common to the members of a particular group or society. ... Thus, culture includes
+> many societal aspects: language, customs, values, norms, mores, rules, tools, technologies, products, organizations, and institutions.
+
+<i> Source: https://www.quora.com/What-is-an-example-of-cultural-aspects </i>
+
 The first thing that comes to my mind, is tipping. I worked as a snowboard instructor for a while and everytime I had Americans in my class, they almost everytime gave me a huge tip. This differs from "us dutch people" because in our cultural it's not the norm to leave tips. I don't consider this one of the most important aspects. It could cause for an awkward situation the first time, but you will get used to it quickly. 
 
-
-
-
-
+I think the most important aspect from the answer above is norms and morals, these are the most important aspects to keep in mind. In my opinion I would be more suprised by someone burping while eating (in my culture it's something rude) than someone saying something weird.
 
 In the end I think it's important to stay open minded and have good intentions while facing different cultures. Ofcourse it comes in handy to know some aspects but you'll also have to get to know the culture by discovering and social interactions. 
 
@@ -52,6 +54,19 @@ The cambridge dictionary says the following:
 
 So the question is how can cultures live together in the same environment?  
 This happens when people migrate to another country because of work, social life or characteristic preference of the country. A multicultural society will form out of this actions and to make it work we have to start with respecting each other's culture and treat everyone equally despite their culture.
+
+On Quora someone asked a similair question: "What factors are needed for people from different cultures to live together peacefully?". Here is a piece of Doug Sandlin's answer:
+
+> I’d say rule of law - where everyone in a given society is treated equally under the law.
+> 
+> One of the pathologies of human nature is to engage in the fallacy of imagined superiority.
+> 
+> If the laws of a given nation penalize it, and it’s generally socially unacceptable, to act on such misunderstanding - a generally peaceful society seems to be
+> the standard result.
+
+I think Doug has a point, the ideal situation would be if people just accepted each other. Sadly this is not always possible so I agree with Doug that the law could be a good overall mean to create a safe multicultural society.
+
+<i> Source: https://www.quora.com/What-factors-are-needed-for-people-from-different-cultures-to-live-together-peacefully </i>
 
 
 <br>
