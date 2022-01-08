@@ -24,7 +24,7 @@ The book also has a quote from Ting-Toomey defining culture as:
 
 
 ### Which cultural aspects would you keep in mind when facing cultural differences?
-To answer this question I want to get clear what a cultural aspect is and maybe get some examples so I can start working from there.
+To answer this question, I want to get clear what a cultural aspect is and maybe get some examples, so I can start working from there.
 
 #### What are cultural aspects?
 [This answer](https://www.quora.com/What-is-an-example-of-cultural-aspects) on quora gives a good example about some aspects and also clears what it is.
@@ -36,7 +36,7 @@ To answer this question I want to get clear what a cultural aspect is and maybe 
 
 The first thing that comes to my mind, is tipping. I worked as a snowboard instructor for a while and everytime I had Americans in my class, they almost everytime gave me a huge tip. This differs from "us dutch people" because in our cultural it's not the norm to leave tips. I don't consider this one of the most important aspects. It could cause for an awkward situation the first time, but you will get used to it quickly. 
 
-I think the most important aspect from the answer above is norms and morals, these are the most important aspects to keep in mind. In my opinion I would be more suprised by someone burping while eating (in my culture it's something rude) than someone saying something weird.
+I think the most important aspect from the answer above is norms and morals, these are the most important aspects to keep in mind. In my opinion, I would be more suprised by someone burping while eating (in my culture it's seen as rude) than someone saying something weird.
 
 In the end I think it's important to stay open minded and have good intentions while facing different cultures. Ofcourse it comes in handy to know some aspects but you'll also have to get to know the culture by discovering and social interactions. 
 
@@ -64,7 +64,7 @@ On Quora someone asked a similair question: "What factors are needed for people 
 > If the laws of a given nation penalize it, and it’s generally socially unacceptable, to act on such misunderstanding - a generally peaceful society seems to be
 > the standard result.
 
-I think Doug has a point, the ideal situation would be if people just accepted each other. Sadly this is not always possible so I agree with Doug that the law could be a good overall mean to create a safe multicultural society.
+I think Doug has a point, the ideal situation would be if people just accepted each other. Sadly this is not always the case. Therefore I agree with Doug that the law could be a good overall means to create a safe multicultural society.
 
 <i> Source: https://www.quora.com/What-factors-are-needed-for-people-from-different-cultures-to-live-together-peacefully </i>
 
@@ -73,7 +73,7 @@ I think Doug has a point, the ideal situation would be if people just accepted e
 
 
 ### Can you give examples for things going not as expected when interacting with people from other cultures? What and why went differently?
-In my own experience I don't have examples from situations like that. But the internet has a lot from using hand gestures that mean different things in different cultures to behavior that's totally normal in one culture but insulting in another one. I found this real life example, that I found interesting because it could happen to me.
+In my own experience I don't have examples from situations like that. But the internet has a lot; from using hand gestures that mean different things in different cultures,  to behavior that's totally normal in one culture but insulting in another one. I found this real life example, that I found interesting because it could happen to me.
 
 > **This individual really struggles to understand the British. For example, when they prepare a report or a presentation and show it to their manager for feedback
 > they are told, “it’s fine”.**
@@ -101,16 +101,16 @@ In my own experience I don't have examples from situations like that. But the in
 
 
 ### What is your culture?
-First of all I grew up in the Netherlands, so to be correct I have the dutch culture. This means three kisses when congratulating someone, being very direct in a conversation (in the south it's a little bit less were I'm from but still), having dinner early, biking everywhere, etc. All of these don't exactly apply to me, but that's also how I was raised by my parents. Ofcourse I have some dutch culture like eating habits or short sentences that everyone says during meal time, congratulating someone, etc.
+First of all I grew up in the Netherlands, so I grew up with dutch culture. This means three kisses when congratulating someone, being very direct in a conversation (in the south it's a bit more nuanced), having dinner early, biking everywhere, etc. All of these don't exactly apply to me, but that has to do with my different and more worldly upbringing. Ofcourse I have some dutch culture like eating habits, short sentences that everyone says during meal time, congratulating someone, etc.
 
-If I have to describe my culture it is more like accepting everyone around me the way they are. I try to be respectful to everyone and everything, but to also help people that might need it. I'm a people pleaser, which is a good thing but can also be a bad one. I love to learn about a lot of different things including other people's culture and can admire them for it. 
+If I have to describe my culture it is more like accepting everyone around me the way they are. I try to be respectful to everyone and everything, but to also help people that might need it. I'm a people pleaser, which is a good but can also be a bad thing. I love to learn about a lot of different things including other people's culture and can admire them for it. 
 
 
 <br>
 
 
 ### How would you act in the future when you know that you need to communicate or collaborate with a person from another culture?
-In the future I will try to communicate the best I can to ensure I won't get any cultural misunderstandings like the example above and most of all give people around me the feeling that I respect their culture and it's totally okay for me and them to show their (cultural) behaviour 
+In the future I will try to communicate the best I can to ensure I won't get any cultural misunderstandings, like the example above and most of all give people around me the feeling that I respect their culture and it's totally okay for me and them to show their (cultural) behaviour 
 
 
 <br>
