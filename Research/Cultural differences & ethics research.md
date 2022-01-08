@@ -38,8 +38,12 @@ The first thing that comes to my mind, is tipping. I worked as a snowboard instr
 
 In the end I think it's important to stay open minded and have good intentions while facing different cultures. Ofcourse it comes in handy to know some aspects but you'll also have to get to know the culture by discovering and social interactions. 
 
+
+<br>
+
+
 ### How can cultures be clustered?
-To better answer this question I want to know what clustured really means. Therefore I added the question below:
+To better answer this question I want to know what clustered really means. Therefore I added the question below:
 
 #### What does cluster mean?
 The cambridge dictionary says the following:
@@ -50,11 +54,35 @@ So the question is how can cultures live together in the same environment?
 This happens when people migrate to another country because of work, social life or characteristic preference of the country. A multicultural society will form out of this actions and to make it work we have to start with respecting each other's culture and treat everyone equally despite their culture.
 
 
+<br>
 
 
 ### Can you give examples for things going not as expected when interacting with people from other cultures? What and why went differently?
+In my own experience I don't have examples from situations like that. But the internet has a lot from using hand gestures that mean different things in different cultures to behavior that's totally normal in one culture but insulting in another one. I found this real life example, that I found interesting because it could happen to me.
+
+> **This individual really struggles to understand the British. For example, when they prepare a report or a presentation and show it to their manager for feedback
+> they are told, “it’s fine”.**
+> 
+> However, after handing in the report or making the presentation they discover the manager is not pleased as things are missing.
+> 
+> They can’t understand why they are being told something is fine, to only find out later, it is not fine. This along with other communication challenges is really
+> bothering the Dutch national.
+> 
+> So, what’s going on here?
+> 
+> **Well, it’s all about how different cultures communicate. The Dutch are used to being open, frank and honest when giving opinions. If you say something is
+> ‘fine’, then it’s fine.**
+> 
+> In the UK however, the British communication culture is very different. You need to listen to much more than the words in the UK. People say one thing but mean
+> another. Saying something is “fine” in the UK really means it is not fine – it’s the exact opposite.
+> 
+> **Among Brits, they understand what ‘fine’ means – it means it’s 'not good enough' and that changes need to be made. The Dutch national however took the meaning
+> literally – big mistake!**
+
+<i> Source: https://www.commisceo-global.com/blog/3-real-life-examples-of-cultural-misunderstandings-in-business </i>
 
 
+<br>
 
 
 ### What is your culture?
@@ -63,8 +91,11 @@ First of all I grew up in the Netherlands, so to be correct I have the dutch cul
 If I have to describe my culture it is more like accepting everyone around me the way they are. I try to be respectful to everyone and everything, but to also help people that might need it. I'm a people pleaser, which is a good thing but can also be a bad one. I love to learn about a lot of different things including other people's culture and can admire them for it. 
 
 
-### How would you act in the future when you know that you need to communicate or collaborate with a person from another culture?
+<br>
 
+
+### How would you act in the future when you know that you need to communicate or collaborate with a person from another culture?
+In the future I will try to communicate the best I can to ensure I won't get any cultural misunderstandings like the example above and most of all give people around me the feeling that I respect their culture and it's totally okay for me and them to show their (cultural) behaviour 
 
 
 <br>
