@@ -69,12 +69,49 @@ Below are listed most of the agile methods that exists now a day with a short in
 <br>
 
 - ### Kanban
-- ### Exrtreme Programming (XP)
+> Kanban is a visual system for managing work as it moves through a process. Kanban visualizes both the process (the workflow) and the actual work passing through
+> that process. The goal of Kanban is to identify potential bottlenecks in your process and fix them so work can flow through it cost-effectively at an optimal
+> speed or throughput.
+
+<i> Source: https://www.digite.com/kanban/what-is-kanban/ </i>
+
+<br>
+
+- ### Extreme Programming (XP)
+> Extreme programming is a software development methodology that’s part of what’s collectively known as agile methodologies. XP is built upon values, principles,
+> and practices, and its goal is to allow small to mid-sized teams to produce high-quality software and adapt to evolving and changing requirements.
+
+<img width="314" src="https://d112uwirao0vo9.cloudfront.net/wp-content/uploads/2019/09/Extreme-Programming-XP.jpg">
+
+> What sets XP apart from the other agile methodologies is that XP emphasizes the technical aspects of software development. Extreme programming is precise about
+> how engineers work since following engineering practices allows teams to deliver high-quality code at a sustainable pace.
+>
+> Extreme programming is, in a nutshell, about good practices taken to an extreme. Since pair-programming is good, let’s do it all of the time. Since testing early > is good, let’s test before the production code is even written.
+
+<i> Source: https://www.digite.com/agile/extreme-programming-xp/ </i>
+
+<br>
+
 - ### Lean development
+
+<br>
+
 - ### Crystal
+
+<br>
+
 - ### Agile modeling
+
+<br>
+
 - ### Adaptive software development (ASD)
+
+<br>
+
 - ### Feature driven development (FDD)
+
+<br>
+
 - ### Agile Unified process (AUP)
 
 
