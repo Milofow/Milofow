@@ -225,15 +225,23 @@ This images shows the differences between XP and Scrum:
 <i> Source: https://www.educba.com/scrum-vs-xp/ </i>
 
 <br>
+<br>
 
 - ### Kanban
 Kanban is a way of organising your tasks on a board. The simplest form is to divide your tasks into three stages: to do, in progress and done. This way you can get a good overview in just a glance. 
+
+The following points differentiate kanban from scrum:
+<img width="610" alt="Schermafbeelding 2022-01-09 om 20 20 20" src="https://user-images.githubusercontent.com/73555911/148697348-fc926bc7-2bc9-41c6-b8c1-43ea59f01649.png">
+<i> Source: https://www.atlassian.com/agile/kanban/kanban-vs-scrum </i>
+
+<br>
+<br>
 
 
 ## Do you know how software engineers work in practice with agile methods?
 In our group project we repeatedly talked with Timothy, our product owner. He told us about their way of working which involves the scrum method with a big kanban board with alot more stages then we are using. Their team used stages like blocked, which is a stage for tasks that cannot be completed because of external factors. They also worked with pair programming from time to time, but mainly in sprints with tasks on the kanban board. The tasks are linked to a user story and are very specific.
 
-## Which agile management tool would you recommend for use in your project and why?
-I would always recommend to make use of Kanban it's a great start for your project and it's very clear while working on tasks for yourself as well as in a team. For bigger project also include scrum
+<br>
 
-https://ancaonuta.medium.com/how-spikes-help-to-improve-your-agile-product-delivery-a0f104305911
+## Which agile management tool would you recommend for use in your project and why?
+I would always recommend to make use of Kanban it's a great start for your project and it's very clear while working on tasks for yourself as well as in a team. If you're working on a project for a longer period of time, I'd also include scrum. Because of the sprints, it will help you to focus on a specific group of tasks, which will keep your mind at ease. If you feel comfortable using both, then involve extreme programming. The nice thing about xp is that you don't have to involve the whole thing, but you can start of with only involving one of the practices. 
