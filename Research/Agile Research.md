@@ -92,11 +92,23 @@ Below are listed most of the agile methods that exists now a day with a short in
 
 <br>
 
-- ### Lean development
+- ### Lean (software) development
+> Lean Software Development (LSD) is an agile framework based on optimizing development time and resources, eliminating waste, and ultimately delivering only what
+> the product needs. The Lean approach is also often referred to as the Minimum Viable Product (MVP) strategy, in which a team releases a bare-minimum version of
+> its product to the market, learns from users what they like, don’t like and want to be added, and then iterates based on this feedback.
+
+<i> Source: https://www.productplan.com/glossary/lean-software-development/ </i>
 
 <br>
 
 - ### Crystal
+> Unlike more fixed frameworks like scrum, crystal recognizes that different teams will perform differently depending on team size, criticality, and priority of
+> the project and encourages users to adapt the framework for their individual situation.
+> 
+> For example, a small team can keep itself aligned with regular communication, so it doesn't need much status reporting and documentation, whereas a large team is
+> likely to get out-of-sync and would benefit from a more structured approach.
+
+<i> Source: https://airfocus.com/glossary/what-is-the-crystal-agile-framework/ </i>
 
 <br>
 
