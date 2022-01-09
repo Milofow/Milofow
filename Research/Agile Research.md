@@ -67,6 +67,7 @@ Below are listed most of the agile methods that exists now a day. They contain a
 <i> Source: https://www.atlassian.com/agile/scrum </i>
 
 <br>
+<br>
 
 - ### Kanban
 > Kanban is a visual system for managing work as it moves through a process. Kanban visualizes both the process (the workflow) and the actual work passing through
