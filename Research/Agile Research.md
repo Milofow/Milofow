@@ -41,6 +41,7 @@ Aside these tools there is also the agile manifesto it is created by 17 people t
 <i> Source: https://www.projectmanager.com/blog/agile-principles </i>  
 
 <br>
+<br>
 
 The agile manifesto is based on 12 principles that can be found [here](https://agilemanifesto.org/principles.html). These principles help achieve an agile mindset by letting them guide you. Two good sites that explain these 12 principles are:
 - https://www.plutora.com/blog/12-agile-principles
@@ -66,7 +67,6 @@ Below are listed most of the agile methods that exists now a day. They contain a
 <img width="314" src="https://wac-cdn.atlassian.com/dam/jcr:709d95de-f4d4-4faf-aa9f-4bead10e888b/sprint_cycle-c.png?cdnVersion=154">
 <i> Source: https://www.atlassian.com/agile/scrum </i>
 
-<br>
 <br>
 
 - ### Kanban
