@@ -178,7 +178,29 @@ The first three of this list are the most popular agile methodologies, during my
 <br>
 
 ## Can you explain Scrum in full details, as it is by the book?
+To come as close as possible to the original definition and meaning of scrum, I searched online for some good sources. Spending just a few minutes searching I found a site called scrum.org. Their about us page tells us it was founded by one of the co-creators of scrum, therefore being a valid source. They even offer a scrum guide book written by the creators of scrum, Ken Schwaber and Jeff Sutherland. I will be quoting some of their guide to help me get an image of scrum.
 
+They define scrum as the following:
+> Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems.
+> 
+> In a nutshell, Scrum requires a Scrum Master to foster an environment where:
+> 
+> 1. A Product Owner orders the work for a complex problem into a Product Backlog.
+> 
+> 2. The Scrum Team turns a selection of the work into an Increment of value during a Sprint.
+> 
+> 3. The Scrum Team and its stakeholders inspect the results and adjust for the next Sprint.
+> 
+> 4. Repeat
+
+<i> Source: https://scrumguides.org/scrum-guide.html </i>
+
+<br>
+
+The scrum pillars are making sure you
+
+
+<br>
 
 
 ## Can you explain two more agile methods and name a number of interesting features in them different from Scrum? 
