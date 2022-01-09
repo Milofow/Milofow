@@ -230,7 +230,7 @@ This images shows the differences between XP and Scrum:
 - ### Kanban
 Kanban is a way of organising your tasks on a board. The simplest form is to divide your tasks into three stages: to do, in progress and done. This way you can get a good overview in just a glance. 
 
-The following points differentiate kanban from scrum:
+The following points differentiate kanban from scrum:  
 <img width="610" alt="Schermafbeelding 2022-01-09 om 20 20 20" src="https://user-images.githubusercontent.com/73555911/148697348-fc926bc7-2bc9-41c6-b8c1-43ea59f01649.png">
 <i> Source: https://www.atlassian.com/agile/kanban/kanban-vs-scrum </i>
 
