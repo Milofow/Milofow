@@ -182,7 +182,9 @@ The first three of this list are the most popular agile methodologies, during my
 
 ## Can you explain two more agile methods and name a number of interesting features in them different from Scrum? 
 
-### Kanban
+- ### Extreme programming (XP)
+
+- ### Kanban
 Kanban is a way of organising your tasks on a board. The simplest form is to divide your tasks into three stages: to do, in progress and done. This way you can get a good overview in just a glance. 
 
 
