@@ -12,7 +12,7 @@ To answer this question I'm first going to discuss what the word "agile" means t
 
 <i> Source: https://www.dictionary.com/browse/agile </i>
 
-This gives us a better picture of agile development. If we dig a little deeper and more specific we find a website dedicated to this principle. Agile Alliance as it's called is a non profit community of volunteers to help inform people about this principle and help people get the best out of it. They explain agile development as the following:
+This gives us a better picture of agile development. If we dig a little deeper, we will find a website dedicated to this principle. Agile Alliance, as it's called, is a non profit community of volunteers to help inform people about this principle and help people get the best out of it. They explain agile development as the following:
 
 > It’s really about thinking through how you can understand what’s going on in the environment that you’re in today, identify what uncertainty you’re facing, and  > figure out how you can adapt to that as you go along.
 
@@ -23,7 +23,7 @@ So agile development is a development process that has room for adjusting or jus
 <br>
 
 ### Agile manifesto
-Aside these tools there is also the agile manifesto it is created by 17 people to help other people use agile by doing and helping them do it. This pieces is taken from the manifesto and explains some of its meaning:
+Aside from these tools, there is also the agile manifesto, it is created by 17 people to help other people use agile by doing and helping them do it. This piece is taken from the manifesto and explains some of its meaning:
 
 > **Individuals and interactions** over processes and tools
 > 
@@ -52,10 +52,10 @@ The agile manifesto is based on 12 principles that can be found [here](https://a
 
 
 ## Which agile methods exist and which are most popular?
-Below are listed most of the agile methods that exists now a day. They contain a short introduction that I picked from the internet that described it the best in my opinion.
+Listed here below are most of the agile methods that exists nowadays. They contain a short introduction that I picked from the internet which describes it the best, in my opinion.
 
 - ### Scrum
-> People often think scrum and agile are the same thing because scrum is centered around continuous improvement, which is a core principle of agile. However, scrum
+> People often think scrum and agile are the same thing, because scrum is centered around continuous improvement, which is a core principle of agile. However, scrum
 > is a framework for getting work done, where agile is a mindset. You can’t really “go agile”, as it takes dedication from the whole team to change the way they
 > think about delivering value to your customers. But you can use a framework like scrum to help you start thinking that way and to practice building agile
 > principles into your everyday communication and work.
@@ -79,7 +79,7 @@ Below are listed most of the agile methods that exists now a day. They contain a
 <br>
 
 - ### Extreme Programming (XP)
-> Extreme programming is a software development methodology that’s part of what’s collectively known as agile methodologies. XP is built upon values, principles,
+> Extreme programming is a software development methodology that is a part of what’s collectively known as agile methodologies. XP is built upon values, principles,
 > and practices, and its goal is to allow small to mid-sized teams to produce high-quality software and adapt to evolving and changing requirements.
 
 <img width="314" src="https://d112uwirao0vo9.cloudfront.net/wp-content/uploads/2019/09/Extreme-Programming-XP.jpg">
@@ -96,7 +96,7 @@ Below are listed most of the agile methods that exists now a day. They contain a
 - ### Lean (software) development
 > Lean Software Development (LSD) is an agile framework based on optimizing development time and resources, eliminating waste, and ultimately delivering only what
 > the product needs. The Lean approach is also often referred to as the Minimum Viable Product (MVP) strategy, in which a team releases a bare-minimum version of
-> its product to the market, learns from users what they like, don’t like and want to be added, and then iterates based on this feedback.
+> its product to the market, learns from users what they like or don’t like and what they want to be added, and then iterates based on this feedback.
 
 <i> Source: https://www.productplan.com/glossary/lean-software-development/ </i>
 
@@ -178,7 +178,7 @@ The first three of this list are the most popular agile methodologies, during my
 <br>
 
 ## Can you explain Scrum in full details, as it is by the book?
-To come as close as possible to the original definition and meaning of scrum, I searched online for some good sources. Spending just a few minutes searching I found a site called scrum.org. Their about us page tells us it was founded by one of the co-creators of scrum, therefore being a valid source. They even offer a scrum guide book written by the creators of scrum, Ken Schwaber and Jeff Sutherland. I will be quoting some of their guide to help me get an image of scrum.
+To come as close as possible to the original definition and meaning of scrum, I searched online for some good sources. Spending just a few minutes searching, I found a site called scrum.org. Their 'about us' page tells us it was founded by one of the co-creators of scrum, therefore it is a valid source. They even offer a scrum guide book written by the creators of scrum, Ken Schwaber and Jeff Sutherland. I will be quoting some of their guide to help me get an image of scrum.
 
 They define scrum as the following:
 > Scrum is a lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems.
@@ -266,4 +266,4 @@ In our group project we repeatedly talked with Timothy, our product owner. He to
 <br>
 
 ## Which agile management tool would you recommend for use in your project and why?
-I would always recommend to make use of Kanban it's a great start for your project and it's very clear while working on tasks for yourself as well as in a team. If you're working on a project for a longer period of time, I'd also include scrum. Because of the sprints, it will help you to focus on a specific group of tasks, which will keep your mind at ease. If you feel comfortable using both, then involve extreme programming. The nice thing about xp is that you don't have to involve the whole thing, but you can start of with only involving one of the practices. 
+I would always recommend to make use of Kanban it's a great start for your project and it's very clear while working on tasks for yourself as well as in a team. If you're working on a project for a longer period of time, I'd also include scrum. Because of the sprints, it will help you to focus on a specific group of tasks, which will keep your mind at ease. If you feel comfortable using both, then involve extreme programming. The nice thing about xp is that you don't have to involve the whole thing, but you can start off with only involving one of these practices. 
