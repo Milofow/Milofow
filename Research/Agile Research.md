@@ -51,7 +51,7 @@ The agile manifesto is based on 12 principles that can be found [here](https://a
 
 
 ## Which agile methods exist and which are most popular?
-Below are listed most of the agile methods that exists now a day with a short introduction:
+Below are listed most of the agile methods that exists now a day. They contain a short introduction that I picked from the internet that described it the best in my opinion.
 
 - ### Scrum
 > People often think scrum and agile are the same thing because scrum is centered around continuous improvement, which is a core principle of agile. However, scrum
@@ -113,21 +113,67 @@ Below are listed most of the agile methods that exists now a day with a short in
 <br>
 
 - ### Agile modeling
+> When you want the ultimate definition of any concept, you can’t do better than going right to the source. AgileModeling defines Agile modeling as “…a practice
+> based methodology for effective modeling and documentation of software-based systems. Simply put, Agile Modeling (AM) is a collection of values, principles, and
+> practices for modeling software that can be applied on a software development project in an effective and lightweight manner.”
+> 
+> The modeling adds to existing Agile methodologies such as the Rational Unified Process (RUP) or extreme programming (XP). Agile modeling helps developers create
+> a customized software development process that fulfills their development needs yet is flexible enough to adjust to future situations.
+
+<i> Source: https://www.simplilearn.com/agile-modelling-article#what_is_agile_modeling_an_introduction </i>
 
 <br>
 
 - ### Adaptive software development (ASD)
+> In ASD, projects happen in an iterative cycle composed of three overlapping phases: speculation, collaboration, and learning. The “speculation” phase is what is
+> usually called “planning” in other methodologies, agile or not. It explicitly acknowledges the paradox of making plans in a rapid-evolving, complex, scenario.
+> 
+> The collaboration phase shows the importance of closer and constant collaboration, not only within the development team, but also between developers and the end
+> users of the software.
+> 
+> Finally, the learning phase indicates everyone involved in the software development process will be continuously learning throughout the project.
+> 
+> ASD, as an approach, is oriented toward high-speed: it uses techniques such as time-boxed iterative cycles, risk-driven planning and concurrency to achieve quick
+> delivery of value to the customer, while also embracing the uncertainty and near-chaos that are intrinsic to complex, high-risk projects.
+
+<i> Source: https://www.digite.com/agile/adaptive-software-development-asd/ </i>
 
 <br>
 
 - ### Feature driven development (FDD)
+> FDD is a methodology broadly regarded as based on the four agile values and the twelve agile principles as set out in the Agile Manifesto. It was one of 6
+> methodologies represented at the meeting that created the Agile Manifesto.
+> 
+> Work starts with building a domain object model and identifying all the features and feature sets (groups of features). After prioritizing the features, work
+> proceeds iteratively and incrementally.
+> 
+> The combination of more traditional planning with agile build practices helps FDD fit in with traditional enterprise structures.
+> 
+> It works well for large teams and long, complex projects.
+
+<i> Source: https://www.digite.com/agile/feature-driven-development-fdd/ </i>
 
 <br>
 
-- ### Agile Unified process (AUP)
+- ### Rational unified process (RUP)
+> Rational Unified Process (RUP) is an agile software development methodology. RUP splits the project life cycle into four phases. During each of the phases, all
+> six core development disciplines take place: business modelling, requirements, analysis and design, implementation, testing, and deployment. However, certain
+> processes are more important and take up more time during every stage. For example, business modelling mostly takes place during the early phases, inception and
+> elaboration. Each of four phases has the main objective, which has to be completed before the project can progress to the next phase.
+> 
+> The main goal of RUP is to create high quality software with a predictable budget and time frame. Each of the life cycle phases can be repeated, if needed, until
+> the main objectives are met. Once the transition stage is completed successfully, the project is finished.
 
+<i> Source: https://study.com/academy/lesson/what-is-the-rational-unified-process-methodology-tools-examples.html </i>
 
+<img width="314" src="https://www.toolshero.com/wp-content/uploads/2019/07/rational-unified-process-rup-example-toolshero.jpg.webp">
+<i> Source: https://www.toolshero.com/information-technology/rational-unified-process-rup/ </i>
 
+<br>
+
+The first three of this list are the most popular agile methodologies, during my research they were mentioned everywhere. The most of them are also the base for other lesser known methodologies.
+
+<br>
 
 ## Can you explain Scrum in full details, as it is by the book?
 
