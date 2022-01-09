@@ -194,7 +194,8 @@ In the final prototype I'll have to adjust my designs from the durability tests,
 ## Conclusion
 With all these results I made a new prototype, that looks like:
 
-![UX demo](https://user-images.githubusercontent.com/73555911/148683762-656138be-c638-44d9-9667-f06f9bf35620.gif)
+![Demo final prototype UX](https://user-images.githubusercontent.com/73555911/148684053-65d3ebad-3ecc-42ce-a67e-7247430b5d3d.gif)
+
 
 This prototype can now be implemented into our application with the same design.
 
