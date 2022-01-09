@@ -1,10 +1,9 @@
 # Agile Research
 To deepen my knowledge about the agile work way I'm going to answer some questions about agile and discuss some of the methods and my experience with them.
 
-
+<br>
 
 ## What does it mean agile development, the agile manifesto, the agile principles?
-
 
 ### Agile development
 To answer this question I'm first going to discuss what the word "agile" means the dictionary website says the following:
@@ -21,6 +20,7 @@ This gives us a better picture of agile development. If we dig a little deeper a
 
 So agile development is a development process that has room for adjusting or just doing things different while still developing a product. Agile development has a lot of tools to help you develop through this way.
 
+<br>
 
 ### Agile manifesto
 Aside these tools there is also the agile manifesto it is created by 17 people to help other people use agile by doing and helping them do it. This pieces is taken from the manifesto and explains some of its meaning:
@@ -37,25 +37,45 @@ Aside these tools there is also the agile manifesto it is created by 17 people t
 
 
 #### The 12 agile principles
-The 12 principles are based on the agile manifesto and can be found [here](https://agilemanifesto.org/principles.html). These principles describe 
+<img width="314" src="https://www.projectmanager.com/wp-content/uploads/2017/09/Agile-Principles-Pop-Version-1600x1628.jpg">
+<i> Source: https://www.projectmanager.com/blog/agile-principles </i>  
+
+<br>
+
+The agile manifesto is based on 12 principles that can be found [here](https://agilemanifesto.org/principles.html). These principles help achieve an agile mindset by letting them guide you. Two good sites that explain these 12 principles are:
+- https://www.plutora.com/blog/12-agile-principles
+- https://www.productplan.com/glossary/agile-principles/
 
 
-
-
+<br>
 
 
 ## Which agile methods exist and which are most popular?
-Below are listed a couple of agile methods with a short introduction:
+Below are listed most of the agile methods that exists now a day with a short introduction:
 
-## Scrum
-## Kanban
-## Exrtreme Programming (XP)
-## Lean development
-## Crystal
-## Agile modeling
-## Adaptive software development (ASD)
-## Feature driven development (FDD)
-## Agile Unified process (AUP)
+- ### Scrum
+> People often think scrum and agile are the same thing because scrum is centered around continuous improvement, which is a core principle of agile. However, scrum
+> is a framework for getting work done, where agile is a mindset. You can’t really “go agile”, as it takes dedication from the whole team to change the way they
+> think about delivering value to your customers. But you can use a framework like scrum to help you start thinking that way and to practice building agile
+> principles into your everyday communication and work.
+> 
+> The scrum framework is heuristic; it’s based on continuous learning and adjustment to fluctuating factors. It acknowledges that the team doesn’t know everything
+> at the start of a project and will evolve through experience. Scrum is structured to help teams naturally adapt to changing conditions and user requirements,
+> with re-prioritization built into the process and short release cycles so your team can constantly learn and improve.
+
+<img width="314" src="https://wac-cdn.atlassian.com/dam/jcr:709d95de-f4d4-4faf-aa9f-4bead10e888b/sprint_cycle-c.png?cdnVersion=154">
+<i> Source: https://www.atlassian.com/agile/scrum </i>
+
+<br>
+
+- ### Kanban
+- ### Exrtreme Programming (XP)
+- ### Lean development
+- ### Crystal
+- ### Agile modeling
+- ### Adaptive software development (ASD)
+- ### Feature driven development (FDD)
+- ### Agile Unified process (AUP)
 
 
 
