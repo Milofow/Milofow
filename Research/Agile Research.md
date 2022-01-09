@@ -167,8 +167,9 @@ Below are listed most of the agile methods that exists now a day. They contain a
 <i> Source: https://study.com/academy/lesson/what-is-the-rational-unified-process-methodology-tools-examples.html </i>
 
 <img width="314" src="https://www.toolshero.com/wp-content/uploads/2019/07/rational-unified-process-rup-example-toolshero.jpg.webp">
-<i> Source: https://www.toolshero.com/information-technology/rational-unified-process-rup/ </i>
+<i> Source: https://www.toolshero.com/information-technology/rational-unified-process-rup/ </i>  
 
+<br>
 <br>
 
 The first three of this list are the most popular agile methodologies, during my research they were mentioned everywhere. The most of them are also the base for other lesser known methodologies.
@@ -185,8 +186,8 @@ The first three of this list are the most popular agile methodologies, during my
 Kanban is a way of organising your tasks on a board. The simplest form is to divide your tasks into three stages: to do, in progress and done. This way you can get a good overview in just a glance. 
 
 
-## Do you know how software engineers work in practice with agile methods? (to answer this question, we advise that you arrange a visit to a company)
-In our group project we repeatedly talked with Timothy our product owner. He told us about their way of working which involves the scrum method with a big kanban board with also more stages like blocked which is a stage if a task cannot be completed because of external factors. They also worked with pair programming from time to time, but mainly in sprints with tasks on the kanban board. The tasks are linked to a user story and are very specific.
+## Do you know how software engineers work in practice with agile methods?
+In our group project we repeatedly talked with Timothy, our product owner. He told us about their way of working which involves the scrum method with a big kanban board with alot more stages then we are using. Their team used stages like blocked, which is a stage for tasks that cannot be completed because of external factors. They also worked with pair programming from time to time, but mainly in sprints with tasks on the kanban board. The tasks are linked to a user story and are very specific.
 
 ## Which agile management tool would you recommend for use in your project and why?
 I would always recommend to make use of Kanban it's a great start for your project and it's very clear while working on tasks for yourself as well as in a team. For bigger project also include scrum
