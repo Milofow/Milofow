@@ -182,8 +182,49 @@ The first three of this list are the most popular agile methodologies, during my
 
 
 ## Can you explain two more agile methods and name a number of interesting features in them different from Scrum? 
+I'm going to choose two methods that I also have some experience with. Namely extreme programming and kanban.
 
 - ### Extreme programming (XP)
+> Software engineer Kent Beck developed XP in 1996 as a lightweight agile framework, and he built the approach around 12 practices (possibly modeled on the Agile
+> Manifesto’s 12 principles), including:  
+> 
+> The planning game  
+> Small releases  
+> Metaphor  
+> Simple design  
+> Testing  
+> Refactoring  
+> Pair programming  
+> Collective ownership  
+> Continuous integration  
+> 40-hour week  
+> Onsite customer  
+> Coding standard  
+> 
+> Beck’s original XP also stressed five core values, including:  
+> 
+> Communication  
+> Simplicity  
+> Feedback  
+> Courage  
+> Respect  
+
+<i> Source: https://www.productplan.com/glossary/extreme-programming/ </i>
+
+In our group project we've used pair programming and noticed the benefits of it. It came in handy to solve problems faster but also if one of the two was absent.
+
+<br>
+
+This images shows the differences between XP and Scrum:  
+<table>
+  <tr>
+    <td><img width="955" src="https://user-images.githubusercontent.com/73555911/148696214-b84cdcdd-766d-44d0-9872-4606df38dc25.png"></td>
+    <td><img width="955" src="https://user-images.githubusercontent.com/73555911/148696253-f616f292-0aeb-40e1-91e0-f17f49357e46.png"></td>
+  </tr>
+</table>
+<i> Source: https://www.educba.com/scrum-vs-xp/ </i>
+
+<br>
 
 - ### Kanban
 Kanban is a way of organising your tasks on a board. The simplest form is to divide your tasks into three stages: to do, in progress and done. This way you can get a good overview in just a glance. 
