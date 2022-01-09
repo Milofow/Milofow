@@ -155,7 +155,7 @@ Amber is 23 years old. She also has some relevant work experience, but she is mo
 <i> 8 </i>
 
 3. Did the prototype work effectively, in your opinion? Did it feel like you could complete the task with little trouble or without thinking too much?  
-<i> Yes, </i>
+<i> Yes, but I would like to see some more instruction kind of text while filtering. That explains what everything is a bit more. </i>
 
 4. Were you confused at any time, if so where and why?  
 <i> No, not really confused if anything see previous question </i>
@@ -195,7 +195,6 @@ In the final prototype I'll have to adjust my designs from the durability tests,
 With all these results I made a new prototype, that looks like:
 
 ![Demo final prototype UX](https://user-images.githubusercontent.com/73555911/148684053-65d3ebad-3ecc-42ce-a67e-7247430b5d3d.gif)
-
 
 This prototype can now be implemented into our application with the same design.
 
