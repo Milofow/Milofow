@@ -36,7 +36,7 @@ For testing purposes I made an interactive prototype in Adobe XD to do usability
 
 <br>
 
-Aside from the usability tests, I'm also going to do an A/B test, so I created an extra screen from the prototype to let my subject prefer one.
+Aside from the usability tests, I'm also going to do an A/B test, so I created an extra screen from the prototype to let my subjects prefer one.
 <table>
   <tr>
     <td><img width="1440" src="https://user-images.githubusercontent.com/73555911/147965828-463fe25b-d758-4aa7-ad85-b239321a4a0c.png"></td> 
@@ -122,7 +122,7 @@ Paula is 53 years old. She has years of experience working with accountancy prog
 <i> Yes, until I had to search for the bill of table number 1, because they were sorted on bill number instead of table number and I was looking for the table numbers. </i>
 
 4. Were you confused at any time, if so where and why?  
-<i> Yes, because if what I answered in the previous questions. I rather search on table number then bill number. </i>
+<i> Yes, because of what I answered in the previous questions. I rather search on table number then bill number. </i>
 
 <br>
 
@@ -204,5 +204,5 @@ This prototype can now be implemented into our application with the same design.
 
 <br>
 
-Sources: 
-<i> https://xd.adobe.com/ideas/process/user-testing/top-7-usability-testing-methods/ </i>
+## Sources
+- https://xd.adobe.com/ideas/process/user-testing/top-7-usability-testing-methods/
