@@ -194,11 +194,7 @@ In the final prototype I'll have to adjust my designs from the durability tests,
 ## Conclusion
 With all these results I made a new prototype, that looks like:
 
-<table>
-  <tr>
-    <td></td>
-  </tr>
-</table>
+![UX demo](https://user-images.githubusercontent.com/73555911/148683762-656138be-c638-44d9-9667-f06f9bf35620.gif)
 
 This prototype can now be implemented into our application with the same design.
 
