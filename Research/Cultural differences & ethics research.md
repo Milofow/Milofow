@@ -119,10 +119,51 @@ In the future I will try to communicate the best I can to ensure I won't get any
 ## Ethics
 
 ### What is ethics in software engineering?
+I think ethics in software engineering are almost the same as in life. The association for computing machinery (ACM) has established a code of ethics, that shows how ethics should be applied to an (software) engineer, but also as help while making ethical decisions. The code of ethics can be found [here](acm.org/code-of-ethics).  
+
+A short version describing this code of ethics:
+> Software engineers shall commit themselves to making the analysis, specification, design, development, testing and maintenance of software a beneficial and respected
+> profession. In accordance with their commitment to the health, safety and welfare of the public, software engineers shall adhere to the following Eight Principles:
+> 
+> 1. PUBLIC – Software engineers shall act consistently with the public interest.
+> 2. CLIENT AND EMPLOYER – Software engineers shall act in a manner that is in the best interests of their client and employer consistent with the public interest.
+> 3. PRODUCT – Software engineers shall ensure that their products and related modifications meet the highest professional standards possible.
+> 4. JUDGMENT – Software engineers shall maintain integrity and independence in their professional judgment.
+> 5. MANAGEMENT – Software engineering managers and leaders shall subscribe to and promote an ethical approach to the management of software development and maintenance.
+> 6. PROFESSION – Software engineers shall advance the integrity and reputation of the profession consistent with the public interest.
+> 7. COLLEAGUES – Software engineers shall be fair to and supportive of their colleagues.
+> 8. SELF – Software engineers shall participate in lifelong learning regarding the practice of their profession and shall promote an ethical approach to the practice of the
+> profession.
+
+<i> Source: https://www.computer.org/education/code-of-ethics </i>
+
+
+<br>
+
 
 ### Why is ethics important in software engineering? 
+As I see it it's important that a software engineer develops with good ethics, otherwise it could be harmful for a lot of people. Because of software continuesly spreading faster, you'll affect more people than you maybe think.
+
+I copied this piece out of an article that talks about some events that had serious consequences, which could have been avoided if it were for ethics.
+> Programmers have to understand the risk of their project and failure to do so could lead bad accidents such as
+> 
+> - Ariane 5, Flight 501
+> - Therac 25
+> - The London Ambulance Service
+> - Who counts the votes?
+> 
+> These projects are bought a massive damage on human lives...
+
+<i> Source: https://www.nerdynaut.com/importance-of-ethics-for-a-software-engineer </i>
+
+Without going fully into detail of every incident some are confirmed incidents because of bad software engineer choices.
+
+
+<br>
+
 
 ### What do you have to do as a software engineer to address ethical aspects in your work? 
+
 
 ### How do you know that your ethical considerations match with those of other software engineers? 
 
