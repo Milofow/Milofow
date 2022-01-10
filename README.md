@@ -120,7 +120,7 @@ To start working more user story oriented I started a project board on Github. M
 To work a little bit more professional, as a preparation for the future. I try working with the so called Github flow. This means having seperate branches, for seperate stages in your project. Because the project isn't to big I will be working with the flow as it's explained in the picture below:
 
 ![image](https://user-images.githubusercontent.com/73555911/148848367-a49769a0-739f-4366-8399-f56265434b78.png)
-
+<i> Source: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow </i>
 
 
 #### 3. Researches
