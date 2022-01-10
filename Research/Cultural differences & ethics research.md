@@ -142,7 +142,7 @@ A short version describing this code of ethics:
 
 
 ### Why is ethics important in software engineering? 
-As I see it it's important that a software engineer develops with good ethics, otherwise it could be harmful for a lot of people. Because of software continuesly spreading faster, you'll affect more people than you maybe think.
+As I see it it's important that a software engineer develops with good ethics, otherwise it could be harmful for a lot of people. Because of software continuesly is spreading faster, you'll affect more people than you might think.
 
 I copied this piece out of an article that talks about some events that had serious consequences, which could have been avoided if it were for ethics.
 > Programmers have to understand the risk of their project and failure to do so could lead bad accidents such as
@@ -163,18 +163,29 @@ Without going fully into detail of every incident some are confirmed incidents b
 
 
 ### What do you have to do as a software engineer to address ethical aspects in your work? 
+Keep the already discussed code of ethics in mind while developing software. I think by following the first and thirth principle of the code of ethics, I will come a long way. By developing software with the public in mind, you'll automaticly create software that has a positive effect on the ones around you. The thirth principle means working the best you can and I believe if you do this with good intentions, it'll automatically become good software.
+
+<br>
 
 
 ### How do you know that your ethical considerations match with those of other software engineers? 
+Ofcourse you can notice quickly if you're on the same page by working together and looking at each other's code. But you will also notice when discussing issues together and hearing their points of view. As for everything, if you want to know for sure, you need to communicate with eachother.
 
+<br>
 
-
-
-Questions related to your project:
 
 ### Which ethical aspects play a role in your project? 
+
+<br>
+
 ### Do you foresee ethical conflicts caused by your software? What kind of?  
+
+<br>
+
+
 ### Can you do something to avoid or minimize these conflicts? 
+
+<br>
 
 
 
