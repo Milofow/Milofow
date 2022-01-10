@@ -274,7 +274,9 @@ The scrum pillars make sure the four events in scrum work. The pillars are: tran
 To quickly recap from my perspective:  
 Scrum works with time periods called sprints, these sprints are designed to complete certain tasks. To start a sprint you create a sprint planning with tasks out of the product backlog, these tasks are the sprint backlog. A scrum team will work on this backlog during the time period. To help improve the workflow this team will do a recap of their work daily, called the daily scrum or standups. If the time period exceeds, the team will present their work in a sprint review to stakeholders. To discuss and improve their work way they will do a retrospective to finish the sprint and start again.
 
-<img width="1002" src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/screen_shot_2021-01-10_at_9.14.17_am.png">
+<img width="1002" src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/screen_shot_2021-01-10_at_9.14.17_am.png">  
+<i> Source: https://www.scrum.org/resources/what-is-scrum </i>
+
 
 <br>
 
