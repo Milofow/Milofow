@@ -197,8 +197,84 @@ They define scrum as the following:
 
 <br>
 
-The scrum pillars are making sure you
+### Scrum pillars
+The scrum pillars make sure the four events in scrum work. The pillars are: transparency, inspection and adaptation. 
 
+### Transparency
+> The emergent process and work must be visible to those performing the work as well as those receiving the work.  
+
+### Inspection
+> The Scrum artifacts and the progress toward agreed goals must be inspected frequently and diligently to detect potentially undesirable variances or problems.  
+
+### Adaptation
+> If any aspects of a process deviate outside acceptable limits or if the resulting product is unacceptable, the process being applied or the materials being produced must be
+> adjusted. The adjustment must be made as soon as possible to minimize further deviation.
+
+<i> Source: https://scrumguides.org/scrum-guide.html </i>
+
+<br>
+
+### Scrum values
+> Commitment, Focus, Openness, Respect, and Courage
+
+> These values give direction to the Scrum Team with regard to their work, actions, and behavior. The decisions that are made, the steps taken, and the way Scrum is used should reinforce these values, not diminish or undermine them.  
+
+<br>
+
+### Scrum events
+> The Sprint is a container for all other events. Each event in Scrum is a formal opportunity to inspect and adapt Scrum artifacts.  
+
+#### The sprint
+> Sprints are the heartbeat of Scrum, where ideas are turned into value.
+> 
+> They are fixed length events of one month or less to create consistency. A new Sprint starts immediately after the conclusion of the previous Sprint.
+> 
+> All the work necessary to achieve the Product Goal, including Sprint Planning, Daily Scrums, Sprint Review, and Sprint Retrospective, happen within Sprints.
+> 
+> During the Sprint:
+> - No changes are made that would endanger the Sprint Goal;
+> - Quality does not decrease;
+> - The Product Backlog is refined as needed; and,
+> - Scope may be clarified and renegotiated with the Product Owner as more is learned.
+
+
+##### Sprint planning
+> Sprint Planning initiates the Sprint by laying out the work to be performed for the Sprint. This resulting plan is created by the collaborative work of the entire Scrum Team.
+> 
+> The Product Owner ensures that attendees are prepared to discuss the most important Product Backlog items and how they map to the Product Goal.
+
+
+##### Daily scrum
+> The purpose of the Daily Scrum is to inspect progress toward the Sprint Goal and adapt the Sprint Backlog as necessary, adjusting the upcoming planned work.
+> 
+> The Daily Scrum is a 15-minute event for the Developers of the Scrum Team. To reduce complexity, it is held at the same time and place every working day of the Sprint.
+
+
+##### Sprint review
+> The purpose of the Sprint Review is to inspect the outcome of the Sprint and determine future adaptations. The Scrum Team presents the results of their work to key
+> stakeholders and progress toward the Product Goal is discussed.
+> 
+> During the event, the Scrum Team and stakeholders review what was accomplished in the Sprint and what has changed in their environment. Based on this information, attendees
+> collaborate on what to do next. The Product Backlog may also be adjusted to meet new opportunities. The Sprint Review is a working session and the Scrum Team should avoid
+> limiting it to a presentation.
+
+
+##### Sprint retrospective
+> The purpose of the Sprint Retrospective is to plan ways to increase quality and effectiveness.
+> 
+> The Scrum Team inspects how the last Sprint went with regards to individuals, interactions, processes, tools, and their Definition of Done...The Scrum Team discusses what went
+> well during the Sprint, what problems it encountered, and how those problems were (or were not) solved.
+> 
+> The Scrum Team identifies the most helpful changes to improve its effectiveness. The most impactful improvements are addressed as soon as possible. They may even be added to
+> the Sprint Backlog for the next Sprint.
+
+<i> Source: https://scrumguides.org/scrum-guide.html </i>
+
+#### Recap
+To quickly recap from my perspective:  
+Scrum works with time periods called sprints, these sprints are designed to complete certain tasks. To start a sprint you create a sprint planning with tasks out of the product backlog, these tasks are the sprint backlog. A scrum team will work on this backlog during the time period. To help improve the workflow this team will do a recap of their work daily, called the daily scrum or standups. If the time period exceeds, the team will present their work in a sprint review to stakeholders. To discuss and improve their work way they will do a retrospective to finish the sprint and start again.
+
+<img width="1002" src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2021-01/screen_shot_2021-01-10_at_9.14.17_am.png">
 
 <br>
 
