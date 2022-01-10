@@ -176,16 +176,19 @@ Ofcourse you can notice quickly if you're on the same page by working together a
 
 ### Which ethical aspects play a role in your project? 
 
+
+
 <br>
 
+
 ### Do you foresee ethical conflicts caused by your software? What kind of?  
+Luckily our product won't be implemented directly, because it could cause some real issues publishing it like this. For starters all our communication is not protected, so maybe sensitive data could be retrieved by third parties. Which violates people's privacy, so it's not optimal designed with the public in mind (yet).
 
 <br>
 
 
 ### Can you do something to avoid or minimize these conflicts? 
 
-<br>
 
 
 
