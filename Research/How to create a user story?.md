@@ -4,7 +4,7 @@ Therefore I want to dig into it to prepare me for making excellent user stories 
 
 ## What is a user story?
 A user story is a great way to display your functionalities from the product you are developing. 
-A user story tells what a certain person wants to do to achieve something or solve a problem. It's written as simple as possible with avoiding technical terms.
+A user story tells you what a certain person wants to do to achieve something or solve a problem. It's written as simple as possible and it avoids using technical terms.
 
 Another way to look at what a user story is, is from the next definition brought by Andrii Bondarenko in his article on [Stormotion](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/):
 > User Story is a small (actually, the smallest) piece of work that represents some value to an end user and can be delivered during a sprint.  
@@ -25,12 +25,12 @@ How is a user story different from a task? The image below explains the differen
 <br>
 
 ## How to use user stories?
-User stories are mainly used with scrum. You can fill your project's backlog with user stories and underlying tasks, because the user stories shoul be not too broad to take onto in one sprint, they are perfect for the sprint backlog.
+User stories are mainly used with scrum. You can fill your project's backlog with user stories and underlying tasks, because the user stories shouldn't be too broad to take onto in one sprint, they are perfect for the sprint backlog.
 
 <br>
 
 ## Why user stories?
-User stories create a very specific task that needs to be done and can be defined done if the acceptance criteria is met. Making it very easy to work off the functions in your product. Because it is based on a persona you don't loose the connection with this person, making you keep the end user in mind. The tasks are normally small making them easy to finish and oversee what needs to be done. So it's a perfect starting point for figuring out what to do and allow space for discussions.
+User stories create a very specific task that needs to be done and can be defined done if the acceptance criteria is met. Making it very easy to work off the functions in your product. Because it is based on a persona you don't loose the connection with this person, making you keep the end user in mind. The tasks are normally small which makes them easy to finish and oversee what needs to be done. So it's a perfect starting point for figuring out what to do and allow space for discussions.
 
 <br>
 
@@ -88,13 +88,13 @@ To start forming correct user stories you need to make sure you know this person
 <br>
 
 ### Acceptance criteria
-Afer you're done creating a perfect user story you should start writing some acceptance criteria for it. These are the criteria you have to meet to ensure your user story is fulfilled. I also found a template for that one:
+Afer you're done creating a perfect user story, you should start writing some acceptance criteria for it. These are the criteria you have to meet to ensure your user story is fulfilled. I also found a template for that one:
 
 > Given that [some context], when [some action is carried out], then [a set of observable outcomes should occur].
 
 *Source: https://www.aha.io/roadmapping/guide/requirements-management/what-is-a-good-feature-or-user-story-template*
 
-I have to say that one is a little bit vague to me, so for now I like to just create a couple of bullet points with the criteria that needs to be met to have succesfully implemented the user story.
+I have to say that one is a little bit vague to me, so for now I would like to just create a couple of bullet points with the criteria that needs to be met to succesfully implemented the user story.
 
 <br>
 
