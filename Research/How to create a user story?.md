@@ -125,19 +125,6 @@ Acceptance criteria goals:
 *Source: https://www.altexsoft.com/blog/business/acceptance-criteria-purposes-formats-and-best-practices/*
 
 <br>
-<br>
-
-To check if your user story is optimal formed you can check if it fits the next criteria which forms the acrnonym:
-> **Independent** – they can be developed in any sequence and changes to one User Story don’t affect the others.  
-> **Negotiable** – it’s up for the team to decide how to implement them; there is no rigidly fixed workflow.  
-> **Valuable** – each User Story delivers a detached unit of value to end users.  
-> **Estimable** – it’s quite easy to guess how much time the development of a User Story will take.  
-> **Small** – it should go through the whole cycle (designing, coding, testing) during one sprint.  
-> **Testable** – there should be clear acceptance criteria to check whether a User Story is implemented appropriately.  
-
-*Source: https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/*
-
-<br>
 
 Now that we know something about creating them, lets think about these four points before we can start of.
 
@@ -150,7 +137,22 @@ Now that we know something about creating them, lets think about these four poin
 
 <br>
 
-Don't make user stories just for the sake of it, really think about the additional value:
+### Conclusion
+These are the broad topics that you'll need to have knowledge of to work with user stories.  
+
+And just like with everything don't make user stories just for the sake of it, really think about the additional value:
 > If you can’t answer what value this feature brings to end users and your product as well, then you’re doing something wrong.
+
+*Source: https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/*
+
+<br>
+
+If you're done making your first user story, you can check if it's a good one if it meets the requirements from the acronym INVEST:
+> **Independent** – they can be developed in any sequence and changes to one User Story don’t affect the others.  
+> **Negotiable** – it’s up for the team to decide how to implement them; there is no rigidly fixed workflow.  
+> **Valuable** – each User Story delivers a detached unit of value to end users.  
+> **Estimable** – it’s quite easy to guess how much time the development of a User Story will take.  
+> **Small** – it should go through the whole cycle (designing, coding, testing) during one sprint.  
+> **Testable** – there should be clear acceptance criteria to check whether a User Story is implemented appropriately.  
 
 *Source: https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/*
