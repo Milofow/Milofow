@@ -58,10 +58,25 @@ To start forming correct user stories you need to make sure you know this person
 *Source: https://www.romanpichler.com/blog/10-tips-writing-good-user-stories/*
 
 ### Acceptance criteria
-Afer you're done creating a perfect user story you should start writing some acceptance criteria for it. These are the criteria you have to meet to ensure your user story is fulfilled.
+Afer you're done creating a perfect user story you should start writing some acceptance criteria for it. These are the criteria you have to meet to ensure your user story is fulfilled. I also found a template for that one:
 
+> Given that [some context], when [some action is carried out], then [a set of observable outcomes should occur].
 
-To check if your user story is optimal formed you can check if it fits the next criteria:
+*Source: https://www.aha.io/roadmapping/guide/requirements-management/what-is-a-good-feature-or-user-story-template*
+
+I have to say that one is a little bit vague to me, so for now I like to just create a couple of bullet points with the criteria that needs to be met to have succesfully implemented the user story.
+
+Acceptance criteria goals:
+> to clarify what the team should build before they start work
+> to ensure everyone has a common understanding of the problem/need of the customer
+> to help team members know when the story is complete
+> to help verify the story via automated tests
+
+![Acceptance critertia tasks](https://cdn.sanity.io/images/w4zc2lav/production/4e4c1c47e06f8e2ebdeb90d65511e61d075fafc7-1839x1277.png?w=1839&h=1277&auto=format)
+
+*Source: https://www.easyagile.com/blog/how-to-write-good-user-stories-in-agile-software-development/*
+
+To check if your user story is optimal formed you can check if it fits the next criteria which forms the acrnonym:
 > **Independent** – they can be developed in any sequence and changes to one User Story don’t affect the others.  
 > **Negotiable** – it’s up for the team to decide how to implement them; there is no rigidly fixed workflow.  
 > **Valuable** – each User Story delivers a detached unit of value to end users.  
@@ -80,7 +95,6 @@ Now that we know something about creating them, lets think about these four poin
    
 *Source: https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/*
 
-To end this research I 
 
 ## Sources
 - https://www.romanpichler.com/blog/10-tips-writing-good-user-stories/
