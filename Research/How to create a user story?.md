@@ -9,15 +9,17 @@ A user story tells what a certain person wants to do to achieve something or sol
 Another way to look at what a user story is, is from the next definition brought by Andrii Bondarenko in his article on [Stormotion](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/):
 > User Story is a small (actually, the smallest) piece of work that represents some value to an end user and can be delivered during a sprint.
 
-
+How are they different from tasks?
+![Stories vs. Tasks](https://cdn.sanity.io/images/w4zc2lav/production/db8ae8d188f957d953b9653a0b7ecd2fe964fb5e-2429x1278.png?w=1920&h=1010&auto=format)
+*Source: https://www.easyagile.com/blog/how-to-write-good-user-stories-in-agile-software-development/*
    
 
 ## How to use user stories?
-
+User stories are mainly used with scrum. You can fill your project's backlog with user stories and underlying tasks, because the user stories shoul be not too broad to take onto in one sprint, they are perfect for the sprint backlog.
 
 
 ## Why user stories?
-User stories create a very specific task that needs to be done and can be defined done if the acceptance criteria is met. Making it very easy to work off the functions in your product. Because it is based on a persona you don't loose the connection with this person, making you keep the end user in mind. The tasks are normally small making them easy to finish and oversee what needs to be done.
+User stories create a very specific task that needs to be done and can be defined done if the acceptance criteria is met. Making it very easy to work off the functions in your product. Because it is based on a persona you don't loose the connection with this person, making you keep the end user in mind. The tasks are normally small making them easy to finish and oversee what needs to be done. So it's a perfect starting point for figuring out what to do and allow space for discussions.
 
 
 
@@ -78,7 +80,7 @@ Now that we know something about creating them, lets think about these four poin
    
 *Source: https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/*
 
-
+To end this research I 
 
 ## Sources
 - https://www.romanpichler.com/blog/10-tips-writing-good-user-stories/
