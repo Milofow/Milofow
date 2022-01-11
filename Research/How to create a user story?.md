@@ -1,5 +1,5 @@
 # How to create a user story?
-This question will be useful, because I've noticed that working with user stories is worth your while. 
+This question will be useful to answer, because I've noticed that working with user stories is worth your while. 
 Therefore I want to dig into it to prepare me for making excellent user stories in the future.
 
 ## What is a user story?
@@ -83,7 +83,7 @@ To start forming correct user stories you need to make sure you know this person
 <br>
 
 **Example of a persona:**
-
+```Insert example```
 
 <br>
 
@@ -106,7 +106,7 @@ Do not only think about functional tasks you'll have to complete to meet the acc
 
 <br>
 
-Acceptance criteria goals:
+Here are some acceptance criteria goals to help you form better criteria's:
 > * to clarify what the team should build before they start work
 > * to ensure everyone has a common understanding of the problem/need of the customer
 > * to help team members know when the story is complete
