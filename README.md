@@ -7,6 +7,7 @@ I'm Milo Timmermans and I'm currently studying ICT software engineering at Fonty
 
 
 ## Start of the project
+To help me prove some of the learning outcomes I'll be making a project. It will be a IoT dashboard, more information can be found in its repo [here](https://github.com/Milofow/front-end-dashboard)
 
 #### C4
 
