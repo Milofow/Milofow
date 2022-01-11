@@ -10,6 +10,17 @@ I'm Milo Timmermans and I'm currently studying ICT software engineering at Fonty
 To help me prove some of the learning outcomes I'll be making a project. It will be a IoT dashboard, more information can be found in its repo [here](https://github.com/Milofow/front-end-dashboard)
 
 #### C4
+It will be my first time working with distributed systems, therefore I started off easy with the simple architecture designs.
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/73555911/148978923-fd1f4930-7726-4bdc-8f81-0b9cb801e02e.jpg" width=500 height=250></td> 
+    <td><img src="https://user-images.githubusercontent.com/73555911/148978950-961de705-2ff4-426e-a451-b2c6ffec664c.jpg" width=500 height=250></td> 
+  </tr>
+ </table>
+ 
+ Later on I improved them and made them more fitting to my project.
+ 
+
 
 #### Front-end
 I've chosen to get to know the React framework to create my front-end. I've chosen React because it's a popular framework and a lot of my peers are currently working with it, which makes asking for help a lot easier.
