@@ -9,10 +9,13 @@ A user story tells what a certain person wants to do to achieve something or sol
 Another way to look at what a user story is, is from the next definition brought by Andrii Bondarenko in his article on [Stormotion](https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/):
 > User Story is a small (actually, the smallest) piece of work that represents some value to an end user and can be delivered during a sprint.
 
-How are they different from tasks?
+How is a user story different from a task? The image below explains the difference:
 ![Stories vs. Tasks](https://cdn.sanity.io/images/w4zc2lav/production/db8ae8d188f957d953b9653a0b7ecd2fe964fb5e-2429x1278.png?w=1920&h=1010&auto=format)
 *Source: https://www.easyagile.com/blog/how-to-write-good-user-stories-in-agile-software-development/*
    
+>  Tasks are about implementation; user stories are about definition.
+
+*Source: https://www.theinnovationmode.com/the-innovation-blog/user-stories-in-agile-the-whys-and-hows*
 
 ## How to use user stories?
 User stories are mainly used with scrum. You can fill your project's backlog with user stories and underlying tasks, because the user stories shoul be not too broad to take onto in one sprint, they are perfect for the sprint backlog.
@@ -42,6 +45,10 @@ How can we use the template to form a user story:
 
 *Source: https://www.atlassian.com/agile/project-management/user-stories*
 
+#### Example:
+```As a new user, I want to sign up using my existing Google account so that I don't have to keep track of another account.```
+*Source: https://www.nuclino.com/articles/user-story-template-examples*
+
 ### Persona
 As they show in the template it's more of a persona then a user, because it could be anybody. 
 
@@ -57,6 +64,9 @@ To start forming correct user stories you need to make sure you know this person
 
 *Source: https://www.romanpichler.com/blog/10-tips-writing-good-user-stories/*
 
+#### Example:
+
+
 ### Acceptance criteria
 Afer you're done creating a perfect user story you should start writing some acceptance criteria for it. These are the criteria you have to meet to ensure your user story is fulfilled. I also found a template for that one:
 
@@ -65,6 +75,12 @@ Afer you're done creating a perfect user story you should start writing some acc
 *Source: https://www.aha.io/roadmapping/guide/requirements-management/what-is-a-good-feature-or-user-story-template*
 
 I have to say that one is a little bit vague to me, so for now I like to just create a couple of bullet points with the criteria that needs to be met to have succesfully implemented the user story.
+
+Not only think about functional tasks you'll have to complete to meet the acceptance criteria, there is more as this quote will tell:
+> These criteria can be functional (identifying user tasks, functions or business processes), non-functional (design and UI-related) and performance criteria
+> (related to performance metrics, for example, loading time).
+
+*Source: https://hygger.io/blog/user-story-template-how-to-write-it/*
 
 Acceptance criteria goals:
 > to clarify what the team should build before they start work
@@ -75,6 +91,10 @@ Acceptance criteria goals:
 ![Acceptance critertia tasks](https://cdn.sanity.io/images/w4zc2lav/production/4e4c1c47e06f8e2ebdeb90d65511e61d075fafc7-1839x1277.png?w=1839&h=1277&auto=format)
 
 *Source: https://www.easyagile.com/blog/how-to-write-good-user-stories-in-agile-software-development/*
+
+#### Example:
+![Acceptance criteria example](https://www.altexsoft.com/media/2018/07/example-1.png)
+*Source: https://www.altexsoft.com/blog/business/acceptance-criteria-purposes-formats-and-best-practices/*
 
 To check if your user story is optimal formed you can check if it fits the next criteria which forms the acrnonym:
 > **Independent** – they can be developed in any sequence and changes to one User Story don’t affect the others.  
