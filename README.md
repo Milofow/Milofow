@@ -129,13 +129,14 @@ To start working more user story oriented I started a project board on Github. M
 
 
 #### 2. Github flow
-To work a little bit more professional, as a preparation for the future. I try working with the so called Github flow. This means having seperate branches, for seperate stages in your project. Because the project isn't to big I will be working with the flow as it's explained in the picture below:
+To add a little bit more of professionalism, as a preparation for the future. I try working with the so called Github flow. This means having seperate branches, for seperate stages in your project. Because the project isn't to big I will be working with the flow as it's explained in the picture below:
 
 ![image](https://user-images.githubusercontent.com/73555911/148848367-a49769a0-739f-4366-8399-f56265434b78.png)
 <i> Source: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow </i>
 
 
 #### 3. Researches
-[MQTT research]()
+[MQTT research](https://github.com/Milofow/S3-Portfolio/blob/main/Research/MQTT.md)
+[Security research regarding the communication between an amount of services or nodes.](https://github.com/Milofow/S3-Portfolio/blob/main/Research/Safe%20communicating%20between%20multiple%20nodes.md)
 
 
