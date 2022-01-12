@@ -30,7 +30,7 @@ User stories are mainly used with scrum. You can fill your project's backlog wit
 <br>
 
 ## Why user stories?
-User stories create a very specific task that needs to be done and can be defined done if the acceptance criteria is met. Making it very easy to work off the functions in your product. Because it is based on a persona you don't loose the connection with this person, making you keep the end user in mind. The tasks are normally small which makes them easy to finish and oversee what needs to be done. So it's a perfect starting point for figuring out what to do and allow space for discussions.
+User stories create a very specific task that needs to be done and can be defined done if the acceptance criteria is met. Making it very easy to work off the functionality in your product. Because it is based on a persona you don't loose the connection with this person, making you keep the end user in mind. The tasks are normally small which makes them easy to finish and oversee what needs to be done. So it's a perfect starting point for figuring out what to do and allow space for discussions.
 
 <br>
 
