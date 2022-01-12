@@ -10,7 +10,7 @@ I'm Milo Timmermans and I'm currently studying ICT software engineering at Fonty
 To help me prove some of the learning outcomes I'll be making a project. It will be a IoT dashboard, more information can be found in its repo [here](https://github.com/Milofow/front-end-dashboard)
 
 #### C4
-It will be my first time working with distributed systems, therefore I started off easy with the simple architecture designs.
+It will be my first time working with distributed systems, therefore I started off easy with these simple architecture designs.
 <table>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/73555911/148978923-fd1f4930-7726-4bdc-8f81-0b9cb801e02e.jpg" width=500 height=250></td> 
