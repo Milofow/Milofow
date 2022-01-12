@@ -61,7 +61,7 @@ Here I build a simple form for sending a message to services subscribed to the t
 
 
 ##### Sources
-- 
+- http://www.steves-internet-guide.com/mqtt-websockets/
 
 
 ##### 3. API Devices service
@@ -78,7 +78,7 @@ Because I was following JavaBrains's course, I created a discovery service that 
 
 
 
-I did not implement the discovery service later on, because my circumstances did not ask for a discovery service, thus being needless.
+I did not implement the discovery service later on, because my circumstances did not ask for a discovery service, thus it being needless.
 
 
 ##### Sources
