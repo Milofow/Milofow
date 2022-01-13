@@ -10,5 +10,6 @@ These are my research questions
 ## How to ensure a safe communication between multiple nodes/services?
 
 these are my research methods
+survey, a/b, literature.
 
 These are my results
