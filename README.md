@@ -90,12 +90,22 @@ I did not implement the discovery service later on, because my circumstances did
 ### Outcome 2. You use software tooling and methodology that continuously monitors and improve the software quality during software development.
 
 #### 1. Unit and integration testing
+With Spring boot it's really simple to write tests, with the `@SpringBootTest` annotation you can run the entire server and test like it's a real server. But Spring also provides Mockito and it's almost the same thing but it doesn't require the server to start, but mocks its behavior instead. This makes testing quicker and it doesn't depend on external factors like a database. 
+
+Here you can see one of those tests that mimics the behavior of a real request and expects certain outcomes.
+![image](https://user-images.githubusercontent.com/73555911/149328098-aa5c6383-875a-4037-b3a3-020efa327a24.png)
+
 
 Sources:
 
 #### 2. Automated tests on push
+To ensure a good software management system I want to run my tests on certain Github actions I perform. Like pushing to development from a feature branch, I would like to check if my tests are still passing, because if they aren't I may pushed something to development that isn't even working.
 
-Sources:
+As you can see in the image below I merged a feature branch into development after the PR. It runned all the tests and the passed.
+![image](https://user-images.githubusercontent.com/73555911/149326354-cbf9376e-b995-4d49-8e7a-568942b0cf31.png)
+
+##### Sources
+- 
 
 #### 3. Testing with H2 database
 
@@ -111,12 +121,20 @@ Sources:
 ### Outcome 3. You design and implement a (semi)automated software release process that matches the needs of the project context.
 
 #### 1. Docker containers
+Continuously delivery needs a way to deliver my product to the outside world, therefore I invested Docker because docker runs in its own environment making it very easy to run it elsewhere and spread your product. To create a docker from your project you'll need a dockerfile, this file has all the steps it needs to create a docker instance so it can run everywhere. It mostly tells what dependencies it needs and how to create a final build to deploy. 
 
-Sources:
+My dockerfiles can be found here:
+[Device service](https://github.com/Milofow/devices-service/blob/master/Dockerfile)
+[Dashboard front end]()
+
+##### Sources
+- https://docs.docker.com/
+
 
 #### 2. Deploy web services
 
-Sources:
+##### Sources
+
 
 ### Outcome 4. You act in a professional manner during software development and learning.
 
