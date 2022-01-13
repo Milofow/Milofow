@@ -20,6 +20,8 @@ It will be my first time working with distributed systems, therefore I started o
  
  Later on I improved them and made them more fitting to my project.
  
+#### User Stories
+To specify what I had to make I created User stories, they can be found here: [User Stories](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/User%20stories.md)
 
 
 #### Front-end
@@ -95,7 +97,7 @@ With Spring boot it's really simple to write tests, with the `@SpringBootTest` a
 Here you can see one of those tests that mimics the behavior of a real request and expects certain outcomes.
 ![image](https://user-images.githubusercontent.com/73555911/149328098-aa5c6383-875a-4037-b3a3-020efa327a24.png)
 
-
+I also wrote a little research on these kind of tests which can be found here: [MockMvc Spring testing](https://github.com/Milofow/S3-Portfolio/blob/main/Research/MockMvc%20Spring%20testing.md)
 Sources:
 
 #### 2. Automated tests on push
@@ -103,6 +105,7 @@ To ensure a good software management system I want to run my tests on certain Gi
 
 As you can see in the image below I merged a feature branch into development after the PR. It runned all the tests and the passed.
 ![image](https://user-images.githubusercontent.com/73555911/149326354-cbf9376e-b995-4d49-8e7a-568942b0cf31.png)
+
 
 ##### Sources
 - 
