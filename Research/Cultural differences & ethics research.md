@@ -181,8 +181,8 @@ Ofcourse you can notice quickly if you're on the same page by working together a
 <br>
 
 
-### Do you foresee ethical conflicts caused by your software? What kind of?  
-Luckily our product won't be implemented directly, because it could cause some real issues publishing it like this. For starters all our communication is not protected, so maybe sensitive data could be retrieved by third parties. Which violates people's privacy, so it's not optimal designed with the public in mind (yet).
+### Do you foresee ethical conflicts caused by your software? What kind of? 
+Well I have my own project what is only mend to be for my own use, so there won't be any. But as group project we have real customers who could be using our software. Luckily our product won't be implemented directly, because it could cause some real issues publishing it like this. For starters all our communication is not protected, so maybe sensitive data could be retrieved by third parties. Which violates people's privacy, so it's not optimal designed with the public in mind (yet).
 
 <br>
 
