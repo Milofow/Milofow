@@ -165,11 +165,8 @@ Without going fully into detail of every incident some are confirmed incidents b
 ### Context regarding next questions
 The next questions are relatable to my current two projects: individual and group project. I'm going to give some context about them so the questions are more understandable.
 
-
 #### Individual project
 For my individual project I'm making a dashboard which can communicate with your smart home devices in door. Like turning lamps on or off, adding new devices or grouping them. To make sure only the ones who need to acces it can, I have a login page before accessing the dashboard.
-
-<br>
 
 #### Group project
 As a group we have to create a menu application that cuts the interaction with a waiter. The customer has to scan a qr code in the restaurant to navigate to the menu online. From there on customers can view the menu and order. After their order the food and/or drinks will be delivered to their table. 
@@ -198,14 +195,11 @@ Design patterns, privacy and to ensure that some parts of code work perfectly. R
 
 
 ### Do you foresee ethical conflicts caused by your software? What kind of? 
-Well I have my own project what is only mend to be for my own use, so there won't be any. But as group project we have real customers who could be using our software. Luckily our product won't be implemented directly, because it could cause some real issues publishing it like this. For starters all our communication is not protected, so maybe sensitive data could be retrieved by third parties. Which violates people's privacy, so it's not optimal designed with the public in mind (yet).
+Well I have my own project what is only mend to be for my own use, so there won't be any. But as group project we have real customers who could be using our software. Luckily our product won't be implemented directly, because it could cause some real issues publishing it like this. For starters all our communication is not protected, so maybe sensitive data could be retrieved by third parties. Which violates people's privacy, so it's not optimal designed with the public in mind (yet). If my software in my individual project is not working correctly people from the outside could control physical devices in my home, what is seriously 
 
 
 <br>
 
 
 ### Can you do something to avoid or minimize these conflicts? 
-Being aware of them is step one
-
-
-
+Being aware of them is step one to avoiding conflicts. Keep checking your implementations regularly and try to check it for ethical violations. A second thing to do is a code review, it could be that you developed something not ethical unintentionally, that someone else does notice. Test your UX alot to verify you don't have bad design patterns and everything you have in mind works correctly. Conclusion is ask a lot of feedback from different users. 
