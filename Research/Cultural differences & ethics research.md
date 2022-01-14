@@ -160,10 +160,22 @@ Without going fully into detail of every incident some are confirmed incidents b
 
 
 <br>
+### Context regarding next questions
+The next questions are relatable to my current two projects: individual and group project. I'm going to give some context about them so the questions are more understandable.
 
+#### Individual project
+
+
+<br>
+
+#### Group project
+As a group we have to create a menu application that cuts the interaction with a waiter. The customer has to scan a qr code in the restaurant to navigate to the menu online. From there on customers can view the menu and order. After their order the food and/or drinks will be delivered to their table. 
+
+<br>
 
 ### What do you have to do as a software engineer to address ethical aspects in your work? 
 Keep the already discussed code of ethics in mind while developing software. I think by following the first and thirth principle of the code of ethics, I will come a long way. By developing software with the public in mind, you'll automaticly create software that has a positive effect on the ones around you. The thirth principle means working the best you can and I believe if you do this with good intentions, it'll automatically become good software.
+
 
 <br>
 
@@ -175,7 +187,7 @@ Ofcourse you can notice quickly if you're on the same page by working together a
 
 
 ### Which ethical aspects play a role in your project? 
-
+Design patterns, privacy and to ensure that some parts of code work perfectly. Regarding my own project to be ethical I need to make sure only the house owner can control his devices and not people from outside for example. So that his privacy is protected. Because my code works with physical objects it needs to work perfectly, to avoid devices not working anymore or can't be controlled. In our group project it's our duty to create a clear navigation through the application so people don't buy something by mistake
 
 
 <br>
