@@ -160,11 +160,14 @@ Without going fully into detail of every incident some are confirmed incidents b
 
 
 <br>
+
+
 ### Context regarding next questions
 The next questions are relatable to my current two projects: individual and group project. I'm going to give some context about them so the questions are more understandable.
 
-#### Individual project
 
+#### Individual project
+For my individual project I'm making a dashboard which can communicate with your smart home devices in door. Like turning lamps on or off, adding new devices or grouping them. To make sure only the ones who need to acces it can, I have a login page before accessing the dashboard.
 
 <br>
 
@@ -183,11 +186,12 @@ Keep the already discussed code of ethics in mind while developing software. I t
 ### How do you know that your ethical considerations match with those of other software engineers? 
 Ofcourse you can notice quickly if you're on the same page by working together and looking at each other's code. But you will also notice when discussing issues together and hearing their points of view. As for everything, if you want to know for sure, you need to communicate with eachother.
 
+
 <br>
 
 
 ### Which ethical aspects play a role in your project? 
-Design patterns, privacy and to ensure that some parts of code work perfectly. Regarding my own project to be ethical I need to make sure only the house owner can control his devices and not people from outside for example. So that his privacy is protected. Because my code works with physical objects it needs to work perfectly, to avoid devices not working anymore or can't be controlled. In our group project it's our duty to create a clear navigation through the application so people don't buy something by mistake
+Design patterns, privacy and to ensure that some parts of code work perfectly. Regarding my own project to be ethical I need to make sure only the house owner can control his devices and not people from outside for example. So that his privacy is protected. Because my code works with physical objects it needs to work perfectly, to avoid devices not working anymore or can't be controlled. In our group project it's our duty to create a clear navigation through the application so people don't buy something by mistake.
 
 
 <br>
@@ -196,11 +200,12 @@ Design patterns, privacy and to ensure that some parts of code work perfectly. R
 ### Do you foresee ethical conflicts caused by your software? What kind of? 
 Well I have my own project what is only mend to be for my own use, so there won't be any. But as group project we have real customers who could be using our software. Luckily our product won't be implemented directly, because it could cause some real issues publishing it like this. For starters all our communication is not protected, so maybe sensitive data could be retrieved by third parties. Which violates people's privacy, so it's not optimal designed with the public in mind (yet).
 
+
 <br>
 
 
 ### Can you do something to avoid or minimize these conflicts? 
-
+Being aware of them is step one
 
 
 
