@@ -1,4 +1,5 @@
 # Security research regarding the communication between an amount of services or nodes.
+This current semester we have to work with distributed systems, it's also my introduction to this topic because I've
 Why this research? 
 what tools to use (to solve this)
 answers are right and reliable?
