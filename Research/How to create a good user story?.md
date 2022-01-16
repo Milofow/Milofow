@@ -9,6 +9,7 @@ To get a good answer to the question: How to create a good user story? I've used
 * Survey
 * A/B test
 
+<br>
 
 ## What is a user story?
 A user story is a great way to display your functionalities from the product you are developing. 
