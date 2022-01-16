@@ -12,18 +12,18 @@ Appian explains it as the following:
 <br>
 
 ## How does business processes relate to software applications? 
-Well nowadays a lot of work that used to be done by people can be done by computers. Meaning if you have a clear vision of your business process(es) there are probably some steps that can be replaced by a computer doing it, saving money in the long run. It's also the other way around a lot of software applications are fulfilling a business process.
+Well nowadays a lot of work can be done by computers instead of people. Meaning that, if you have a clear vision of your business process(es), there are probably some steps that can be replaced by a computer doing it, saving money in the long run. It's also the other way around; a lot of software applications are fulfilling a business process.
 
 <br>
 <br>
 
 ## Context group project regarding next questions
-As a group we have to create a menu application that cuts the interaction with a waiter. The customer has to scan a qr code in the restaurant to navigate to the menu online. From there on customers can view the menu and order. After their order the food and/or drinks will be delivered to their table. These orders need to be send to a dashboard inside the kitchen, where the personel can label orders as: in progress or done. This helps the workflow as they can clearly keep track of the progression of all orders. At this part of the application it's also possible to edit the menu and inventory. The last one for keeping track of all their products being used.
+As a group we have to create a menu application that cuts the interaction with a waiter. The customer has to scan a qr code in the restaurant to navigate to the menu online. From there on customers can view the menu and order. After they order the food and/or drinks, it will be delivered to their table. These orders need to be send to a dashboard inside the kitchen, where the personel can label orders as 'in progress' or 'done'. This helps the workflow and they can keep track of the progression of all orders clearly. At this part of the application it's also possible to edit the menu and inventory. The last one for keeping track of all their products being used.
 
 <br>
 
 ## Does your software automate a task, facilitate a task, or make a new task possible to perform? 
-Our software as a group automates the following tasks: giving out menus to guests which is now down by the guests self by scanning the qr code on their table. But also the waiter/waitress coming by to take their order. From the guests perspective it facilitates the order task, because guests can simply order directly from the menu instead of waiting for a waiter/waitress to tell them. Inside the kitchen it eases tracking orders and inventory. The guest process makes it possible to facilitate the payment task aswell, guests could simply pay with their phone as it cuts out the waiter/waitress part again. 
+Our group's software automates the following tasks: giving out the menus and taking order. From the guests perspective, it facilitates the order task, because guests can order directly from the menu on their phone instead of waiting for a waiter/waitress. Inside the kitchen it makes tracking orders and inventory easier. The guest's process makes it possible to facilitate the payment task aswell, guests could simply pay with their phone and it will cuts out the waiter/waitress part again. 
 
 <br>
 
@@ -42,10 +42,10 @@ As you can see the personels workload significantly decreases by automating cert
 In the image above you can see three different roles:
 
 * ### Guest
-In the diagram from the previous question the guest has three more steps to perform to reach its end goal. On the contrary the guest benefits from this process because of the following reason: there are less waiting times, the guest can order when he/she wants and doesn't have to wait for the personel.  
+In the diagram from the previous question the guest has three more steps to perform to reach its end goal. On the contrary the guest benefits from this process because of the following reason: the waiting time decreases, the guest can order when they want to and don't have to wait for the personel.  
 
 * ### Personel
-The personel has a two steps less to perfom meaning they will have less work to do, therefore less personel is needed.
+The personel has two steps less to perfom, meaning they will have less work to do, therefore less personel is needed.
 
 * ### Chef
 The chef's work stays the same he/she still needs to prepare the order, but we're also not trying to improve something here.
@@ -57,8 +57,8 @@ The tasks crossed from the original process are the ones automated through our s
 <img width="725" src="https://user-images.githubusercontent.com/73555911/149675184-8edc0c04-5194-48b5-afeb-fcf3b14dbe24.png">
 
 * Bring menu
-This task is now replaced by an action guests can perform by themself, namely scanning the QR code opens the menu.
+This task is now replaced by an action guests can perform by themselves, namely scanning the QR code opens the menu.
 
 * Take order
-The guests can order directly from their online menu, the order will then arrive at the kitchen. The software cuts out the middle man, in this case the personel.
+The guests can order directly from their online menu, the order will then arrive in the kitchen. The software cuts out the middle man, in this case the personel.
 
