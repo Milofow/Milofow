@@ -170,19 +170,19 @@ If you're done making your first user story, you can check if it's a good one if
 <br>
 
 ## Reflection
-I also included research methods different from literature that I'll be using in my reflection to put my research to the test and evaluate further on how to create a better user story.
+I also included other research methods than the ones from literature that I'll be using in my reflection to put my research to the test and evaluate further on how to create a better user story.
 
 ### Prototyping
 I started (re)creating my own user stories and ended up with the following:
 <img width="1045" src="https://user-images.githubusercontent.com/73555911/149676660-e104f2c5-e32c-4c7b-aeb1-8b8eb96e5a7d.png">
 
-I discussed this with my teacher and reflected on it. I was doubting if I did right by adding the word and in the user story, because this indicated that it's probably too much for one user story. Because both of them has to do with each other and in my opinion the current user story isn't wrong I adjusted it to one sentence to not make it confusing.
+I discussed this with my teacher and reflected on it. I was doubting if I did right by adding the word 'and' in the user story, because this indicated that it's probably too much for one user story. Both of them are relatable and in my opinion the current user story isn't wrong, but to avoid confusion I adjusted it to one sentence.
 
 ### Survey
 To gather some more feedback I asked my peers how they would like to work with this user story.
 
 #### What grade would you give this user story?
-Overall a good grade what I also expected because I invested a lot of time in creating a good one, so it's nice to get good feedback
+Overall, a good grade which is what I expected because I invested a lot of time in creating a good one, so it's nice to get good feedback
 <img width="589" src="https://user-images.githubusercontent.com/73555911/149676941-c6a31092-237c-450a-b6a4-ee4704c1b3d3.png">
 
 <br>
@@ -206,6 +206,6 @@ As expected the new user story created after all this research is getting the pr
 <br>
 
 ### Final result
-All this feedback has let me to create the next user story that I'm proud of and see as a perfect outcome to this research:
+All this feedback has let me to create the next user story. One that I'm proud of and see as a perfect outcome of this research:
 
 
