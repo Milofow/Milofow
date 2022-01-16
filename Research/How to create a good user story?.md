@@ -1,6 +1,14 @@
-# How to create a user story?
-This question will be useful to answer, because I've noticed that working with user stories is worth your while. 
+# How to create a good user story?
+This question will be useful to answer, because I've noticed that working with user stories is worth my while. 
 Therefore I want to dig into it to prepare me for making excellent user stories in the future.
+
+## Research methods
+To get a good answer to the question: How to create a good user story? I've used several research methods:
+* Literature
+* Prototyping
+* Survey
+* A/B test
+
 
 ## What is a user story?
 A user story is a great way to display your functionalities from the product you are developing. 
@@ -137,6 +145,7 @@ Now that we know something about creating them, lets think about these four poin
 
 <br>
 
+
 ### Conclusion
 These are the broad topics that you'll need to have knowledge of to work with user stories.  
 
@@ -156,3 +165,46 @@ If you're done making your first user story, you can check if it's a good one if
 > **Testable** – there should be clear acceptance criteria to check whether a User Story is implemented appropriately.  
 
 *Source: https://stormotion.io/blog/how-to-write-a-good-user-story-with-examples-templates/*
+
+<br>
+
+## Reflection
+I also included research methods different from literature that I'll be using in my reflection to put my research to the test and evaluate further on how to create a better user story.
+
+### Prototyping
+I started (re)creating my own user stories and ended up with the following:
+<img width="1045" src="https://user-images.githubusercontent.com/73555911/149676660-e104f2c5-e32c-4c7b-aeb1-8b8eb96e5a7d.png">
+
+I discussed this with my teacher and reflected on it. I was doubting if I did right by adding the word and in the user story, because this indicated that it's probably too much for one user story. Because both of them has to do with each other and in my opinion the current user story isn't wrong I adjusted it to one sentence to not make it confusing.
+
+### Survey
+To gather some more feedback I asked my peers how they would like to work with this user story.
+
+#### What grade would you give this user story?
+Overall a good grade what I also expected because I invested a lot of time in creating a good one, so it's nice to get good feedback
+<img width="589" src="https://user-images.githubusercontent.com/73555911/149676941-c6a31092-237c-450a-b6a4-ee4704c1b3d3.png">
+
+<br>
+
+#### What would you do different?
+The most useful answer was the same as my teacher's:
+<img width="682" src="https://user-images.githubusercontent.com/73555911/149676992-6a7a73f5-3607-45f0-be85-06aa69c78550.png">
+
+<br>
+
+#### A/B test: Is this (old) user story better than the one above?
+Old user story:  
+<img width="403" src="https://user-images.githubusercontent.com/73555911/149677233-85b11152-a0a4-4dc8-ac02-acf8e9b6d98b.png">
+
+Results:
+
+<img width="408" src="https://user-images.githubusercontent.com/73555911/149677046-eb9dfa25-a4eb-4d98-9adc-772eb65e6589.png">
+
+As expected the new user story created after all this research is getting the preference.
+
+<br>
+
+### Final result
+All this feedback has let me to create the next user story that I'm proud of and see as a perfect outcome to this research:
+
+
