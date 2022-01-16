@@ -12,7 +12,7 @@ Appian explains it as the following:
 <br>
 
 ## How does business processes relate to software applications? 
-Well nowadays a lot of work that used to be done by people can be done by computers. Meaning if you have a clear vision of your business process(es) there are probably some steps that can be replaced by a computer doing it, saving money in the long run. It's also the other way around a lot of software applications are fulfilling a business process. Let's find some more similarities
+Well nowadays a lot of work that used to be done by people can be done by computers. Meaning if you have a clear vision of your business process(es) there are probably some steps that can be replaced by a computer doing it, saving money in the long run. It's also the other way around a lot of software applications are fulfilling a business process.
 
 <br>
 <br>
