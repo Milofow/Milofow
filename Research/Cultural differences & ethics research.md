@@ -119,7 +119,7 @@ In the future I will try to communicate the best I can to ensure I won't get any
 ## Ethics
 
 ### What is ethics in software engineering?
-I think ethics in software engineering are almost the same as in life. The association for computing machinery (ACM) has established a code of ethics, that shows how ethics should be applied to an (software) engineer, but also as help while making ethical decisions. The code of ethics can be found [here](acm.org/code-of-ethics).  
+I think ethics in software engineering are almost the same as in real life. The association for computing machinery (ACM) has established a code of ethics, that shows how ethics should be applied to an (software) engineer, but also help to make ethical decisions. The code of ethics can be found [here](acm.org/code-of-ethics).  
 
 A short version describing this code of ethics:
 > Software engineers shall commit themselves to making the analysis, specification, design, development, testing and maintenance of software a beneficial and respected
@@ -142,7 +142,7 @@ A short version describing this code of ethics:
 
 
 ### Why is ethics important in software engineering? 
-As I see it it's important that a software engineer develops with good ethics, otherwise it could be harmful for a lot of people. Because of software continuesly is spreading faster, you'll affect more people than you might think.
+The way I see it, it's important that a software engineer develops with good ethics, otherwise it could be harmful for a lot of people. Because software is continuesly spreading faster, you will affect more people than you might think.
 
 I copied this piece out of an article that talks about some events that had serious consequences, which could have been avoided if it were for ethics.
 > Programmers have to understand the risk of their project and failure to do so could lead bad accidents such as
@@ -166,10 +166,10 @@ Without going fully into detail of every incident some are confirmed incidents b
 The next questions are relatable to my current two projects: individual and group project. I'm going to give some context about them so the questions are more understandable.
 
 #### Individual project
-For my individual project I'm making a dashboard which can communicate with your smart home devices in door. Like turning lamps on or off, adding new devices or grouping them. To make sure only the ones who need to acces it can, I have a login page before accessing the dashboard.
+For my individual project I'm making a dashboard which can communicate with your smart home devices. Like turning lamps on or off, adding new devices or grouping them. To make sure that the only one who can acces this, is the person who owns it, I have a login page before accessing the dashboard.
 
 #### Group project
-As a group we have to create a menu application that cuts the interaction with a waiter. The customer has to scan a qr code in the restaurant to navigate to the menu online. From there on customers can view the menu and order. After their order the food and/or drinks will be delivered to their table. 
+As a group we have to create a menu application that cuts the initial social interaction with a waiter. The customer has to scan a qr code in the restaurant to navigate to the menu online. From there on customers can view the menu and order. After their order the food and/or drinks will be delivered to their table. 
 
 <br>
 
@@ -188,18 +188,17 @@ Ofcourse you can notice quickly if you're on the same page by working together a
 
 
 ### Which ethical aspects play a role in your project? 
-Design patterns, privacy and to ensure that some parts of code work perfectly. Regarding my own project to be ethical I need to make sure only the house owner can control his devices and not people from outside for example. So that his privacy is protected. Because my code works with physical objects it needs to work perfectly, to avoid devices not working anymore or can't be controlled. In our group project it's our duty to create a clear navigation through the application so people don't buy something by mistake.
+Design patterns, privacy and to ensure that some parts of code work perfectly. Regarding my own project, to be ethical I need to make sure only the house owner can control his devices and not people from outside for example. So that his privacy is protected. Because my code works with physical objects it needs to work perfectly, to avoid devices not working anymore or not being able to be controlled. In our group project it's our duty to create a clear navigation through the application so people don't order something by mistake.
 
 
 <br>
 
 
 ### Do you foresee ethical conflicts caused by your software? What kind of? 
-Well I have my own project what is only mend to be for my own use, so there won't be any. But as group project we have real customers who could be using our software. Luckily our product won't be implemented directly, because it could cause some real issues publishing it like this. For starters all our communication is not protected, so maybe sensitive data could be retrieved by third parties. Which violates people's privacy, so it's not optimal designed with the public in mind (yet). If my software in my individual project is not working correctly people from the outside could control physical devices in my home, what is seriously 
-
+Well I have my own project that is only meant to be for my own use, so there won't be any. But as group project we have real customers who could be using our software. Luckily our product won't be implemented directly, because it could cause some real issues publishing it like this. For starters all our communication is not protected, so maybe sensitive data could be retrieved by third parties. Which violates people's privacy, so it's not optimal designed with the public in mind (yet). If the software in my individual project is not working correctly, people from the outside could control physical devices in my home and that would be very unfortunately.
 
 <br>
 
 
 ### Can you do something to avoid or minimize these conflicts? 
-Being aware of them is step one to avoiding conflicts. Keep checking your implementations regularly and try to check it for ethical violations. A second thing to do is a code review, it could be that you developed something not ethical unintentionally, that someone else does notice. Test your UX alot to verify you don't have bad design patterns and everything you have in mind works correctly. Conclusion is ask a lot of feedback from different users. 
+Being aware of them is step one to avoiding conflicts. Keep checking your implementations regularly and try to check it for ethical violations. A second thing to do is a code review, it could be that you developed something not ethical unintentionally, that someone else does notice. Test your UX alot to verify you don't have bad design patterns and everything you have in mind works correctly. In conclusion, always ask a lot of feedback from different users. 
