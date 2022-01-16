@@ -28,29 +28,14 @@ Our software as a group automates the following tasks: giving out menus to guest
 
 
 ## Which is the process that your software supports/automates? Can you visualize it in a diagram?
-It's actually multiple processes:
-
-### Guest process
 The ordinary process of guests arriving at a restaurant, getting seated by someone, receiving the menu, a waiter/waitress stopping by to get their order, their food arriving and finally paying for their meal and leaving. Some steps in the process could be repeated like ordering multiple times, therefore automatically getting their meals brought to the table. This process might look like this:
+<img width="851" src="https://user-images.githubusercontent.com/73555911/149672591-e0e8df74-fc5e-4225-abba-9d444d213e65.png">
 
-
-Due to our software the process now looks like this
+Due to our software the process now looks like this:
 
 ### Kitchen process
 All incoming orders are displayed on a dashboard that is stationed inside the kitchen. From there personell can adjust the status of the order and finally finish them. This process might look like this:
 
-Due to our software the process now looks like this :
-
-### Inventory process
-If a restaurant uses products to prepare meals the inventory reduces. Most restaurant owners correct the inventory periodically, so they can ensure they can serve their dishes. This process might look like this:
-
-Due to our software the process now looks like this:
-
-
-### Adjusting menu process
-The menu can change from time to time, therefore it's essential to change the menu. This process might look like this:
-
-Due to our software the process now looks like this:
 
 
 
