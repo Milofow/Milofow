@@ -4,7 +4,7 @@ Therefore I want to dig into it to prepare me for making excellent user stories 
 
 ## Research methods
 To get a good answer to the question: How to create a good user story? I've used several research methods:
-* Literature
+* Literature study
 * Prototyping
 * Survey
 * A/B test
