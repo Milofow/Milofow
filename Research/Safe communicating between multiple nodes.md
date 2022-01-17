@@ -49,3 +49,14 @@ To make sure I get a reliable and valid outcome on this research, I used the fol
 
 ### 1.1 What is a node?
 ### 1.2 What is a service?
+
+
+## 2. How do services inside a distributed systems communicate with each other?
+
+### 2.1 What types of communication are there?(async vs sync)
+### 2.2 What protocol do these services use?
+### 2.3 Why do services need to be able to communicate?
+
+## 3. Why is it important that communication is happening safely?
+
+### 3.1 How to test if the communication is secured?
