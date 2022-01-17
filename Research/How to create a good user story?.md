@@ -207,5 +207,6 @@ As expected the new user story created after all this research is getting the pr
 
 ### Final result
 All this feedback has let me to create the next user story. One that I'm proud of and see as a perfect outcome of this research:
+<img width="1012" src="https://user-images.githubusercontent.com/73555911/149721861-a03728ed-47c4-42d9-93bf-71b8d25bae56.png">
 
 
