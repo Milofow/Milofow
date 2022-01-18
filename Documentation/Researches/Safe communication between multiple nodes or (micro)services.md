@@ -130,7 +130,7 @@ Let's talk use an example, if we wanted to build a basic calculator. We have fun
 
 
 
-## 2. How do services inside a distributed systems communicate with each other?
+## 2. How does communication work inside a distributed system?
 
 ### 2.1 What types of communication are there?(async vs sync)
 ### 2.2 What protocol do these services use?
