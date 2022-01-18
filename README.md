@@ -164,7 +164,13 @@ To add a little bit more of professionalism, as a preparation for the future. I 
 
 
 #### 3. Researches
-[MQTT research](https://github.com/Milofow/S3-Portfolio/blob/main/Research/MQTT.md)
-[Security research regarding the communication between an amount of services or nodes.](https://github.com/Milofow/S3-Portfolio/blob/main/Research/Safe%20communicating%20between%20multiple%20nodes.md)
+
+* ##### User stories
+Because I stumbled upon making good user stories, I wanted to broad my knowledge around creating a good story. For this project and all the others to come, that's why I decided to do the following research about it:
+[**How to create a good user story?**](https://github.com/Milofow/S3-Portfolio/blob/main/Documentation/Researches/How%20to%20create%20a%20good%20user%20story%3F.md)
+
+* ##### Safe distributed communication
+Semester 3 is all about distributed systems, because of that I wanted to write a research about communication in such a system, and most important how this can happen safely. This research can be found here:
+[**Safe communication between multiple nodes or (micro)services.**](https://github.com/Milofow/S3-Portfolio/blob/main/Documentation/Researches/Safe%20communication%20between%20multiple%20nodes%20or%20(micro)services.md)
 
 
