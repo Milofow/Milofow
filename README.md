@@ -9,7 +9,7 @@ I'm Milo Timmermans and I'm currently studying ICT software engineering at Fonty
 ## Start of the project
 To help me prove some of the learning outcomes I'll be making a project. It will be a IoT dashboard, more information can be found in its repo [here](https://github.com/Milofow/front-end-dashboard)
 
-#### C4
+### C4
 It will be my first time working with distributed systems, therefore I started off easy with these simple architecture designs.
 <table>
   <tr>
@@ -23,18 +23,18 @@ Later when I had a better understanding of this distributed architecture, I impr
 ![C4 diagrams](https://user-images.githubusercontent.com/73555911/150020893-121dcb31-aa43-4d0c-88d3-708a4da42924.gif)
 
  
-#### User Stories
+### User Stories
 To specify what I had to make I created User stories, they can be found here: [User Stories](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/User%20stories.md)
 
 ![First user stories](https://user-images.githubusercontent.com/73555911/150024612-8edd8d09-6e25-47ed-86c9-671a40e6e465.png)
 
 
-#### Front-end
+### Front-end
 I've chosen to get to know the React framework to create my front-end. I've chosen React because it's a popular framework and a lot of my peers are currently working with it, which makes asking for help a lot easier.
 
 
 
-#### Back-end
+### Back-end
 Previous semester I worked with C# language for the back-end, because I like to know a bit of everything I've chosen Java for my backend, due to Java being a new language for me. My next search was for a good framework and I stranded with the popular Spring framework. We had a workshop about Java frameworks and the host was very excited about Spring, his excitement was contagious.
 
 
@@ -46,7 +46,7 @@ Previous semester I worked with C# language for the back-end, because I like to 
 
 ### Outcome 1. You design and build user-friendly, full-stack web applications.
 
-##### 1. Identity service: Login, Register and account information service with 0Auth2
+#### 1. Identity service: Login, Register and account information service with 0Auth2
 I first started off with a login system for my project. I used Auth0 as it works very well and is easy to implement, because of it's good documentation.
 
 ![Auth0](https://user-images.githubusercontent.com/73555911/147069214-461c915e-80d1-4cdd-9d13-1fd7956068d2.gif)
@@ -57,7 +57,7 @@ I first started off with a login system for my project. I used Auth0 as it works
 - https://auth0.com/docs/quickstart/spa/react
 
 
-##### 2. MQTT
+#### 2. MQTT
 Here I build a simple form for sending a message to services subscribed to the topic 'presence', to get a little bit known with how mqtt works. I'm using websockets to send the data to the MQTT broker and it sends it back to the console. The MQTT broker I'm using is Mosquitto.
 <table>
   <tr>
@@ -71,7 +71,7 @@ Here I build a simple form for sending a message to services subscribed to the t
 - http://www.steves-internet-guide.com/mqtt-websockets/
 
 
-##### 3. API Devices service
+#### 3. API Devices service
 Because this semester is about distributed systems I created a separate API service for handling this which can be found [here](https://github.com/Milofow/devices-service)
 
 ![IntelliJ](https://user-images.githubusercontent.com/73555911/150022513-292db6f8-251f-4f65-a627-8c88ff71a2b6.png)
@@ -84,7 +84,7 @@ Because this semester is about distributed systems I created a separate API serv
 - https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&ab_channel=JavaBrains
 
 
-##### 4. Discovery service
+#### 4. Discovery service
 Because I was following JavaBrains's course, I created a discovery service that detects running services. This could come in handy if I was using more or back up services.
 
 ![image](https://user-images.githubusercontent.com/73555911/150024022-b78f5def-8c6f-461b-917d-62f69cbd3b35.png)
