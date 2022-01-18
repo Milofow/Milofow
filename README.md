@@ -18,7 +18,10 @@ It will be my first time working with distributed systems, therefore I started o
   </tr>
  </table>
  
- Later on I improved them and made them more fitting to my project.
+ Later on I improved them and made them more fitting to my project. The current architecture file can be found [here](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/Architecture:%20C4.md)
+ 
+![C4](https://user-images.githubusercontent.com/73555911/150020893-121dcb31-aa43-4d0c-88d3-708a4da42924.gif)
+
  
 #### User Stories
 To specify what I had to make I created User stories, they can be found here: [User Stories](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/User%20stories.md)
