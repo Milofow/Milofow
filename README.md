@@ -18,9 +18,9 @@ It will be my first time working with distributed systems, therefore I started o
   </tr>
  </table>
  
- Later on I improved them and made them more fitting to my project. The current architecture file can be found [here](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/Architecture:%20C4.md)
+Later when I had a better understanding of this distributed architecture, I improved it by creating a real C4 model. It's pretty acurate to my project and my future plans. The full architecture diagrams can be found [here](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/Architecture:%20C4.md)
  
-![C4](https://user-images.githubusercontent.com/73555911/150020893-121dcb31-aa43-4d0c-88d3-708a4da42924.gif)
+![C4 diagrams](https://user-images.githubusercontent.com/73555911/150020893-121dcb31-aa43-4d0c-88d3-708a4da42924.gif)
 
  
 #### User Stories
