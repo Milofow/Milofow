@@ -26,6 +26,8 @@ It will be my first time working with distributed systems, therefore I started o
 #### User Stories
 To specify what I had to make I created User stories, they can be found here: [User Stories](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/User%20stories.md)
 
+![First user stories](https://user-images.githubusercontent.com/73555911/150024612-8edd8d09-6e25-47ed-86c9-671a40e6e465.png)
+
 
 #### Front-end
 I've chosen to get to know the React framework to create my front-end. I've chosen React because it's a popular framework and a lot of my peers are currently working with it, which makes asking for help a lot easier.
@@ -72,6 +74,12 @@ Here I build a simple form for sending a message to services subscribed to the t
 ##### 3. API Devices service
 Because this semester is about distributed systems I created a separate API service for handling this which can be found [here](https://github.com/Milofow/devices-service)
 
+![IntelliJ](https://user-images.githubusercontent.com/73555911/150022513-292db6f8-251f-4f65-a627-8c88ff71a2b6.png)
+
+
+![API GET request](https://user-images.githubusercontent.com/73555911/150023264-27a7c8de-34c1-4f4d-9a2d-bdfed4b248e8.gif)
+
+
 ##### Sources
 - https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&ab_channel=JavaBrains
 
@@ -79,6 +87,7 @@ Because this semester is about distributed systems I created a separate API serv
 ##### 4. Discovery service
 Because I was following JavaBrains's course, I created a discovery service that detects running services. This could come in handy if I was using more or back up services.
 
+![image](https://user-images.githubusercontent.com/73555911/150024022-b78f5def-8c6f-461b-917d-62f69cbd3b35.png)
 
 
 
@@ -113,15 +122,10 @@ As you can see in the image below I merged a feature branch into development aft
 ##### Sources
 - 
 
-#### 3. Testing with H2 database
-
-Sources:
 
 #### 4. Exception testing
 
 Sources:
-
-#### 5. Code review
 
 
 ### Outcome 3. You design and implement a (semi)automated software release process that matches the needs of the project context.
