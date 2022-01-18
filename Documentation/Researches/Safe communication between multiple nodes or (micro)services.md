@@ -131,8 +131,29 @@ Let's talk use an example, if we wanted to build a basic calculator. We have fun
 
 
 ## 2. How does communication work inside a distributed system?
+In order for the services/nodes to work together they need to communicate, this happens by sending messages to each other. These messages contain responses or demands from other services. Through messages is not the only way they can work together, it's also possible to let services work event based or with requests to each other. This explanation is very simple and a little bit vague. While implementing this there is a lot more to it, but it gives us a clear starting point.
+
+Now we know something about communication, but what about where to communicate to or from? What if we have a front end that wants to talk to all these services, instead of them talking to each other. We can adress all services seperately from the front end, or we can put a broker in between that handles all our messages. The broker acts like a postman delivering them to the designated services.
 
 ### 2.1 What types of communication are there?(async vs sync)
+HTTP communication
+HTTP has the total control while choosing how services should communicate with each other. HTTP calls between services is a feasible approach for service-to-service communication.
+
+In such cases when one service is dependent on another service, the services complete their task cycle and then meet the requests received from another service. This is called Synchronous HTTP calls between services. There is no coupling between services here. But those services that placed requests have to wait till they get the response, in order to perform any action.
+
+HTTP asynchronous call is another option between two services. Here, the service takes request from the first service in case of multiple requests and immediately responds with a URL. This URL is used to check on the progress of the request. The services need not wait for their response as this happens instantly as coupling is loose. The services are isolated.
+
+Message communication
+In message communication, the participating services do not communicate directly with each other. The services push messages via message broker in order to reach out to other services. The message broker is the point of contact between all services. This reduces complexity and increases efficiency.
+
+However, there is still some coupling between services using this approach. Both or all the services must agree on the message structure and components involved before the workflow.
+
+Event-driven communication
+An event-driven pattern is another asynchronous approach where coupling between services is completely removed. In an event-driven approach the services need not know about any common message structure. Communication happens through events that individual services generate.
+
+A message broker is still needed here as individual services will write their events to it. However, the participating services need not know the details of the event. They only respond to the event that is happening and not any message that the event would deliver.
+https://www.embitel.com/blog/ecommerce-blog/how-microservices-communicate-with-each-other
+
 ### 2.2 What protocol do these services use?
 ### 2.3 Why do services need to be able to communicate?
 
