@@ -4,7 +4,7 @@ Current semester we have to work with distributed systems, it's my first time wo
 ## Research questions
 ### Main research question  
 My main question that I want answered is:
-* #### How to ensure a safe communication between multiple nodes/services?  
+* #### How to ensure safe communication between nodes/services?  
 
 <br>
 
@@ -12,13 +12,14 @@ My main question that I want answered is:
 I will be answering the main question through the next sub questions:
 * #### 1. What is a distributed system?
   * ##### 1.1 What is a node?
-  * ##### 1.2 What is a service?
-* #### 2. How do services inside a distributed systems communicate with each other?
-  * ##### 2.1 What types of communication are there?(async vs sync)
-  * ##### 2.2 What protocol do these services use?
+  * ##### 1.2 What is a (micro)service?
+* #### 2. How does communication work inside a distributed system?
+  * ##### 2.1 What types of communication are there?
+  * ##### 2.2 What protocols do they use?
   * ##### 2.3 Why do services need to be able to communicate?
-* #### 3. Why is it important that communication is happening safely?
-  * ##### 3.1 How to test if the communication is secured?
+* #### 3. Where to secure communication?
+  * ##### 3.1 Are distributed systems more vulnerable to security threats?
+  * ##### 3.2 How to test if communication is secured?
 
 
 
@@ -225,13 +226,14 @@ REST and SOAP are both used for sending requests over HTTP. I'm not going into d
 
 
 #### Message communication
-Some of these protocols require a broker to communicate with. This is called a pubsub system. An explanation given by Auri Poso on Aiven is:
+Some of these protocols require a broker to communicate with. Most of the time this works with a pubsub system. An explanation given by Auri Poso on Aiven is:
 > The pub-sub communication method is an elaboration on this latter method. The sender merely sends events — whenever there are events to be sent— and each receivers choose,
 > asynchronously, which events to receive.
 > -- <cite>[Auri Poso][8]</cite>
 
 [8]: https://aiven.io/blog/how-are-your-microservices-talking
 
+<br>
 
 * ##### AMQP
 > Asynchronous protocols like AMQP use a lightweight service bus similar to a service-oriented architecture (SOA) bus, though much less complex. Unlike HTTP, this bus provides a
@@ -296,14 +298,51 @@ If you choose to build your application on microservice architecture you probabl
 <br>
 
 
+## 3. Where to secure communication?
 
-## 3. Why is it important that communication is happening safely?
+#### Do everything over HTTPS
+While reading articles all over the web I found one saying to work over HTTPS:
+> You should use HTTPS everywhere, even for static sites. If you have an HTTP connection, change it to an HTTPS one. Make sure all aspects of your workflow—from Maven
+> repositories to XSDs—refer to HTTPS URIs.
+> -- <cite>[Matt Raible][14]</cite>
 
-<br>
+[14]: https://developer.okta.com/blog/2020/03/23/microservice-security-patterns
 
-### 3.1 How to test if the communication is secured?
+HTTPS encrypts your request meaning people can intercept the request or respone but can't decrypt it nor read it.
 
 
-<br>
+#### Dependencies
+
+
+
+#### Access and identity tokens
+
+
+
+#### Slow down attackers
+
+
+#### Service to service security
+> Generally, there are three main techniques that you can use to secure the interservice communications. These are the Trust the network, JSON Web Token (JWT), and Mutual
+> Transport Layer Security (mTLS, or Mutual TLS). 
+>
+> Out of the three, the most popular is the mTLS. In this approach, each microservice must carry a public/private key pair. The client microservice then uses the key-pair to
+> authenticate itself to the receiving microservice through the mTLS.
+> -- <cite>[Amos Kingatua][15]</cite>
+
+[15]: https://geekflare.com/securing-microservices/
+
+
+
+
+#### API gateway
+#### Secure docker environment
+
+
+### 3.1 Are distributed systems more vulnerable to security threats?
+A lot of articles talk about the risk being higher compared to a monolithic system, because of a much more entrypoints to secure.
+
+
+### 3.2 How to test if communication is secured?
 
 ## Conclusion
