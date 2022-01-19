@@ -39,7 +39,7 @@ First I'm going to create a user story that is related to my application. I'm go
 When I'm finished with the user story I'm going to create issues related to that user story. I need to fulfill these issues to come closer to implementing the user story. I like to put the issues on the project board on Github. In the end it'll look like this:
 ![Project board](https://user-images.githubusercontent.com/73555911/150214003-1750f910-7017-4dc0-92e3-47033b073b20.png)
 
-### 3. Feature branch
+## 3. Feature branch
 Because we're going to implement new features, I start by making a new branch for the issue `US 2 - Dashboard only accesisable when logged in #17`. I call the branch something similair and start working on it.
 
 
