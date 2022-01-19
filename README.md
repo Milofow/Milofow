@@ -122,6 +122,7 @@ As you can see in the image below I merged a feature branch into development aft
 ##### Sources
 - 
 
+#### 3. Code review
 
 #### 4. Exception testing
 
@@ -142,7 +143,7 @@ My dockerfiles can be found here:
 
 
 #### 2. Deploy web services
-
+push to docker
 ##### Sources
 
 
