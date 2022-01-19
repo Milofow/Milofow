@@ -56,3 +56,4 @@ Now I'm going to write the code for this issue on the designated branch.
 
 ## 6. Release
 ### Pull request
+<img src="https://i.postimg.cc/rwwdRDGc/Github-flow.png" width="485"/>
