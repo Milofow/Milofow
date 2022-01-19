@@ -140,15 +140,29 @@ Now we know something about communication, but what about where to communicate t
 ### 2.1 What types of communication are there?
 We can split all types of communication into two categories: synchronous and asynchronous. 
 
-* #### Synchronous
+#### Synchronous
+> Basically, we can say that Synchronous communication is using HTTP or gRPC protocol for returning sync response. The client sends a request and waits for a response from the
+> service. So that means client code block their thread, until the response reach from the server.
+> -- <cite>[Mehmet Özkaya][5]</cite>
+
+[5]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+
+#### Asynchronous
+> Asynchronous protocol. In this case, the sub-processes are not locked and protocols that are compatible with many operating systems and cloud environments are used. One
+> example would be the AMQP protocol, where the client’s or message sender’s code usually does not wait for a reply. What is does is simply send a message to a RabbitMQ queue or
+> any other messaging agent.
+> -- <cite>[Chakray][6]</cite>
+
+[6]: https://www.chakray.com/microservices-communication-methods-types-and-styles/
 
 
-* #### Asynchronous
+<br>
+
 
 The next are the most popular ways of communicating inside a distributed system:
 
 * #### HTTP communication
-
+In several articles and videos the first thing discussed is HTTP communication. It's also the most popular and works pretty good, this option is mostly used synchronous. It works by sending requests to other services and expects a response from them. The article I read from [embitel](https://www.embitel.com/blog/ecommerce-blog/how-microservices-communicate-with-each-other) has to say the following:
 > HTTP has the total control while choosing how services should communicate with each other. HTTP calls between services is a feasible approach for service-to-service
 > communication.
 
@@ -161,40 +175,79 @@ Asynchronous
 > HTTP asynchronous call is another option between two services. Here, the service takes request from the first service in case of multiple requests and immediately responds
 > with a URL. This URL is used to check on the progress of the request. The services need not wait for their response as this happens instantly as coupling is loose. The
 > services are isolated.
-https://www.embitel.com/blog/ecommerce-blog/how-microservices-communicate-with-each-other
+
+<br>
 
 * #### Message communication
+The [same article](https://www.embitel.com/blog/ecommerce-blog/how-microservices-communicate-with-each-other) has a good compact description about this way of communicating:
+> In message communication, the participating services do not communicate directly with each other. The services push messages via message broker in order to reach out to other
+> services. The message broker is the point of contact between all services. This reduces complexity and increases efficiency.
+> 
+> However, there is still some coupling between services using this approach. Both or all the services must agree on the message structure and components involved before the
+> workflow.
 
-In message communication, the participating services do not communicate directly with each other. The services push messages via message broker in order to reach out to other services. The message broker is the point of contact between all services. This reduces complexity and increases efficiency.
+As you might have seen this approach is asynchronous as well as the next one.
 
-However, there is still some coupling between services using this approach. Both or all the services must agree on the message structure and components involved before the workflow.
-https://www.embitel.com/blog/ecommerce-blog/how-microservices-communicate-with-each-other
-
-
+<br>
 
 * #### Event-driven communication
-An event-driven pattern is another asynchronous approach where coupling between services is completely removed. In an event-driven approach the services need not know about any common message structure. Communication happens through events that individual services generate.
+This communication is almost the same as the message one, but doensn't communicate with messages. Its main way of communicating is listening to events from other services, these events arrive as a message that services respond to. The article from [embitel](https://www.embitel.com/blog/ecommerce-blog/how-microservices-communicate-with-each-other) says: 
+> An event-driven pattern is another asynchronous approach where coupling between services is completely removed. In an event-driven approach the services need not know about
+> any common message structure. Communication happens through events that individual services generate.
+> 
+> A message broker is still needed here as individual services will write their events to it. However, the participating services need not know the details of the event. They
+> only respond to the event that is happening and not any message that the event would deliver.
 
-A message broker is still needed here as individual services will write their events to it. However, the participating services need not know the details of the event. They only respond to the event that is happening and not any message that the event would deliver.
-https://www.embitel.com/blog/ecommerce-blog/how-microservices-communicate-with-each-other
+<br>
 
-
-
-
-
-
-
-
-There are several different styles of asynchronous communication:
-
-Request/response - a service sends a request message to a recipient and expects to receive a reply message promptly
-Notifications - a sender sends a message a recipient but does not expect a reply. Nor is one sent.
-Request/asynchronous response - a service sends a request message to a recipient and expects to receive a reply message eventually
-Publish/subscribe - a service publishes a message to zero or more recipients
-Publish/asynchronous response - a service publishes a request to one or recipients, some of whom send back a reply
-https://microservices.io/patterns/communication-style/messaging.html
+#### Sources
+* https://www.embitel.com/blog/ecommerce-blog/how-microservices-communicate-with-each-other
 
 
+### 2.2 What protocols do they use?
+I'm going to divide them into two ways of communication: HTTP and message communication. Message and event-driven work more or less the same in my opinion, they both use the same way but listen and react to different things. I only focus on the popular ones, because there are simply to many.
+
+#### HTTP/HTTPS communication
+HTTP itself is actually a protocol, it's a protocol used to send requests to a service in order to receive a respone. These responses are normally formatted in a special way. This way is now a days JSON but could also be XML. 
+
+* ##### REST and SOAP
+REST and SOAP are both used for sending requests over HTTP. I'm not going into depth about SOAP, because it's less and less used today. But REST is very popular, it's a way of sending requests that makes it easier for services to talk to each other. An article on codecademy explains REST as:
+> REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate
+> with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server
+> -- <cite>[codecademy][7]</cite>
+
+[7]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+
+
+<br>
+
+
+#### Message communication
+
+* ##### AMQP
+> Asynchronous protocols like AMQP use a lightweight service bus similar to a service-oriented architecture (SOA) bus, though much less complex. Unlike HTTP, this bus provides a
+> message broker that acts as an intermediary between the individual microservices, thus avoiding the problems associated with a brokerless approach.
+> -- <cite>[Clive Longbottom][8]</cite>
+
+[8]: https://searchapparchitecture.techtarget.com/tip/Styles-protocols-and-methods-of-microservices-communication
+
+You can use this protocol with brokers like Kafka or RabbitMQ
+
+* ##### gRPC
+> It is focused on high performance and uses the HTTP/2 protocol to transport binary messages. It is relies on the Protocol Buffers language to define service contracts.
+> Protocol Buffers, also known as Protobuf, allow you to define the interface to be used in service to service communication regardless of the programming language.
+> -- <cite>[Mehmet Özkaya][9]</cite>
+
+[9]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+
+According to his article it works like:
+> In GRPC, a client application can directly call a method on a server application on a different machine like it were a local object, making it easy for you to build
+> distributed applications and services.
+> -- <cite>[Mehmet Özkaya][10]</cite>
+
+[10]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+
+Because gRPC works binary, meaning it's data is transfered with zeros and ones, it's much faster than human readable requests and responses. Therefore it's more used in the back end services because a readable response isn't necessary. It also doesn't require a broker, it works more like a HTTP request.
 
 
 
@@ -204,33 +257,14 @@ https://microservices.io/patterns/communication-style/messaging.html
 
 
 
+Binary TCP
 
-
-
-
-
-
-
-
-### 2.2 What protocol do these services use?
-HTTP, gRPC or message brokers AMQP
-https://medium.com/design-microservices-architecture-with-patterns/microservices-communications-f319f8d76b71#:~:text=Because%20microservices%20are%20distributed%20and,or%20message%20brokers%20AMQP%20protocol.
-
-There are numerous examples of asynchronous messaging technologies
-
-Apache Kafka
-RabbitMQ
-
-https://microservices.io/patterns/communication-style/messaging.html
-
-REST
 
 But there are other options, such as the Docker host or the microservices cluster, to establish communication services internally, or the binary format communication mechanisms, such as WCG over TCP.
 https://www.chakray.com/microservices-communication-methods-types-and-styles/
 
 
-Probably you have heard before about SOAP and WSDL in SOA (Service Oriented Architecture)
-https://blog.softwaremill.com/how-to-communicate-your-microservices-6542cb4f98c7
+
 
 GraphQL
 Apache Kafka
@@ -251,6 +285,20 @@ As Figure 4-17 shows, real-time HTTP communication means that you can have serve
 
 SignalR is a good way to achieve real-time communication for pushing content to the clients from a back-end server. Since communication is in real time, client apps show the changes almost instantly. This is usually handled by a protocol such as WebSockets, using many WebSockets connections (one per client). A typical example is when a service communicates a change in the score of a sports game to many client web apps simultaneously.
 https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture#:~:text=If%20you're%20communicating%20between,communication%20mechanisms%20such%20as%20AMQP.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 2.3 Why do services need to be able to communicate?
 
 <br>
