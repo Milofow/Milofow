@@ -157,6 +157,7 @@ We can split all types of communication into two categories: synchronous and asy
 
 
 <br>
+<br>
 
 
 The next are the most popular ways of communicating inside a distributed system:
@@ -210,6 +211,7 @@ I'm going to divide them into two ways of communication: HTTP and message commun
 #### HTTP/HTTPS communication
 HTTP itself is actually a protocol, it's a protocol used to send requests to a service in order to receive a respone. These responses are normally formatted in a special way. This way is now a days JSON but could also be XML. 
 
+
 * ##### REST and SOAP
 REST and SOAP are both used for sending requests over HTTP. I'm not going into depth about SOAP, because it's less and less used today. But REST is very popular, it's a way of sending requests that makes it easier for services to talk to each other. An article on codecademy explains REST as:
 > REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate
@@ -223,86 +225,85 @@ REST and SOAP are both used for sending requests over HTTP. I'm not going into d
 
 
 #### Message communication
+Some of these protocols require a broker to communicate with. This is called a pubsub system. An explanation given by Auri Poso on Aiven is:
+> The pub-sub communication method is an elaboration on this latter method. The sender merely sends events — whenever there are events to be sent— and each receivers choose,
+> asynchronously, which events to receive.
+> -- <cite>[Auri Poso][8]</cite>
+
+[8]: https://aiven.io/blog/how-are-your-microservices-talking
+
 
 * ##### AMQP
 > Asynchronous protocols like AMQP use a lightweight service bus similar to a service-oriented architecture (SOA) bus, though much less complex. Unlike HTTP, this bus provides a
 > message broker that acts as an intermediary between the individual microservices, thus avoiding the problems associated with a brokerless approach.
-> -- <cite>[Clive Longbottom][8]</cite>
+> -- <cite>[Clive Longbottom][9]</cite>
 
-[8]: https://searchapparchitecture.techtarget.com/tip/Styles-protocols-and-methods-of-microservices-communication
+[9]: https://searchapparchitecture.techtarget.com/tip/Styles-protocols-and-methods-of-microservices-communication
 
 You can use this protocol with brokers like Kafka or RabbitMQ
+
+<br>
 
 * ##### gRPC
 > It is focused on high performance and uses the HTTP/2 protocol to transport binary messages. It is relies on the Protocol Buffers language to define service contracts.
 > Protocol Buffers, also known as Protobuf, allow you to define the interface to be used in service to service communication regardless of the programming language.
-> -- <cite>[Mehmet Özkaya][9]</cite>
-
-[9]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
-
-According to his article it works like:
-> In GRPC, a client application can directly call a method on a server application on a different machine like it were a local object, making it easy for you to build
-> distributed applications and services.
 > -- <cite>[Mehmet Özkaya][10]</cite>
 
 [10]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
 
+According to his article it works like:
+> In GRPC, a client application can directly call a method on a server application on a different machine like it were a local object, making it easy for you to build
+> distributed applications and services.
+> -- <cite>[Mehmet Özkaya][11]</cite>
+
+[11]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+
 Because gRPC works binary, meaning it's data is transfered with zeros and ones, it's much faster than human readable requests and responses. Therefore it's more used in the back end services because a readable response isn't necessary. It also doesn't require a broker, it works more like a HTTP request.
-
-
-
-
-
-
-
-
-
-Binary TCP
-
-
-But there are other options, such as the Docker host or the microservices cluster, to establish communication services internally, or the binary format communication mechanisms, such as WCG over TCP.
-https://www.chakray.com/microservices-communication-methods-types-and-styles/
-
-
-
-
-GraphQL
-Apache Kafka
-https://blog.softwaremill.com/how-to-communicate-your-microservices-6542cb4f98c7
-
-
-Pub-Sub
-The pub-sub communication method is an elaboration on this latter method. The sender merely sends events — whenever there are events to be sent— and each receivers choose, asynchronously, which events to receive.
-
-Apache Kafka may be one of the more recent evolutions of pub/sub. Apache Kafka works by passing messages via a publish-subscribe model, where software components called producers publish (append) events in time-order to distributed logs called topics (conceptually a category-named data feed to which records are appended).
-
-Consumers are configured to separately subscribe from these topics by offset (the record number in the topic). This latter idea — the notion that consumers simply decide what they will consume — removes the complexity of having to configure complicated routing rules into the producer or other components of the system at the beginning of the pipe.
-https://aiven.io/blog/how-are-your-microservices-talking
-
- is a real-time and one-to-many communication with higher-level frameworks such as ASP.NET SignalR and protocols such as WebSockets.
-
-As Figure 4-17 shows, real-time HTTP communication means that you can have server code pushing content to connected clients as the data becomes available, rather than having the server wait for a client to request new data.
-
-SignalR is a good way to achieve real-time communication for pushing content to the clients from a back-end server. Since communication is in real time, client apps show the changes almost instantly. This is usually handled by a protocol such as WebSockets, using many WebSockets connections (one per client). A typical example is when a service communicates a change in the score of a sports game to many client web apps simultaneously.
-https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture#:~:text=If%20you're%20communicating%20between,communication%20mechanisms%20such%20as%20AMQP.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 2.3 Why do services need to be able to communicate?
 
 <br>
 
+* ##### GraphQL
+> GraphQL can be defined as a declarative query language, syntax, and a runtime that is used to request data on a server. It provides a comprehensive and understandable
+> description of the data in your API, thereby providing clients with the ability to define and ask for exactly what they want and nothing more or less. With the power to make
+> specific requests, it becomes easier for developers to evolve APIs over time and utilize more robust tools. GraphQL is agnostic to how your data is stored in the backend and
+> it offers a collective type-safe layer of all the data sets in your server.
+> -- <cite>[RapidAPI][12]</cite>
+
+[12]: https://rapidapi.com/blog/api-glossary/graphql/
+
+<br>
+
+##### Real-time communication
+An addition to these methods is real-time communication, which is possible through the use of several brokers. A protocol you can use is Websockets, these are packages send to the client through a broker in real-time, meaning a very short time between the creation of something and showing it. This article from Microsoft gives a little bit more context to possibilities:
+> SignalR is a good way to achieve real-time communication for pushing content to the clients from a back-end server. Since communication is in real time, client apps show the
+> changes almost instantly. This is usually handled by a protocol such as WebSockets, using many WebSockets connections (one per client). A typical example is when a service
+> communicates a change in the score of a sports game to many client web apps simultaneously.
+> -- <cite>[Microsoft][13]</cite>
+
+[13]: https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture
+
+<br>
+
+community research?
+https://www.quora.com/What-is-the-best-protocol-for-communication-between-microservices
+
+
+### 2.3 Why do services need to be able to communicate?
+If you choose to build your application on microservice architecture you probably already know the answer to this one. But I still wanted to adress this to make it full circle. The microservice architecture is build on separating everything, thus creating a demand for services who sometimes depend on other services' logic to talk someway. Let's give an example, if we order something on a webshop it'll probably have a order service, product service, cart service, etc. That order service has to deal with products so it needs to communicate with the product service. You could do this to communicate everything back to the front-end, but it would defeat the whole purpose of microservices, as well as being very inefficient en overcomplicated.
+
+
+
+<br>
+
+
+
 ## 3. Why is it important that communication is happening safely?
 
+<br>
+
 ### 3.1 How to test if the communication is secured?
+
+
+<br>
+
+## Conclusion
