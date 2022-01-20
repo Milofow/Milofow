@@ -206,7 +206,7 @@ REST and SOAP are both used for sending requests over HTTP. I'm not going into d
 > with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server
 > -- <cite>[codecademy][7]</cite>
 
-[7]: https://whatis.techtarget.com/definition/monolithic-architecture
+[7]: https://www.codecademy.com/article/what-is-rest
 
 
 <br>
@@ -272,10 +272,6 @@ An addition to these methods is real-time communication, which is possible throu
 [13]: https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/communication-in-microservice-architecture
 
 <br>
-
-community research?
-https://www.quora.com/What-is-the-best-protocol-for-communication-between-microservices
-
 
 ### 2.3 Why do services need to be able to communicate?
 If you choose to build your application on microservice architecture you probably already know the answer to this one. But I still wanted to adress this to make it full circle. The microservice architecture is build on separating everything, thus creating a demand for services who sometimes depend on other services' logic to talk someway. Let's give an example, if we order something on a webshop it'll probably have a order service, product service, cart service, etc. That order service has to deal with products so it needs to communicate with the product service. You could do this to communicate everything back to the front-end, but it would defeat the whole purpose of microservices, as well as being very inefficient en overcomplicated.
