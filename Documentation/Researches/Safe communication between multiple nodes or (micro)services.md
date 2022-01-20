@@ -133,7 +133,7 @@ We can split all types of communication into two categories: synchronous and asy
 > service. So that means client code block their thread, until the response reach from the server.
 > -- <cite>[Mehmet Özkaya][5]</cite>
 
-[5]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+[5]: https://medium.com/design-microservices-architecture-with-patterns/microservices-communications-f319f8d76b71
 
 #### Asynchronous
 > Asynchronous protocol. In this case, the sub-processes are not locked and protocols that are compatible with many operating systems and cloud environments are used. One
@@ -238,14 +238,14 @@ You can use this protocol with brokers like Kafka or RabbitMQ
 > Protocol Buffers, also known as Protobuf, allow you to define the interface to be used in service to service communication regardless of the programming language.
 > -- <cite>[Mehmet Özkaya][10]</cite>
 
-[10]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+[10]: https://medium.com/design-microservices-architecture-with-patterns/microservices-communications-f319f8d76b71
 
 According to his article it works like:
 > In GRPC, a client application can directly call a method on a server application on a different machine like it were a local object, making it easy for you to build
 > distributed applications and services.
 > -- <cite>[Mehmet Özkaya][11]</cite>
 
-[11]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+[11]: https://medium.com/design-microservices-architecture-with-patterns/microservices-communications-f319f8d76b71
 
 Because gRPC works binary, meaning it's data is transfered with zeros and ones, it's much faster than human readable requests and responses. Therefore it's more used in the back end services because a readable response isn't necessary. It also doesn't require a broker, it works more like a HTTP request.
 
