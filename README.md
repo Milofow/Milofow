@@ -9,7 +9,7 @@ I'm Milo Timmermans and I'm currently studying ICT software engineering at Fonty
 ## Start of the project
 To help me prove some of the learning outcomes I'll be making a project. It will be a IoT dashboard, more information can be found in its repo [here](https://github.com/Milofow/front-end-dashboard)
 
-### C4
+* ### C4
 It will be my first time working with distributed systems, therefore I started off easy with these simple architecture designs.
 <table>
   <tr>
@@ -22,19 +22,26 @@ Later when I had a better understanding of this distributed architecture, I impr
  
 ![C4 diagrams](https://user-images.githubusercontent.com/73555911/150020893-121dcb31-aa43-4d0c-88d3-708a4da42924.gif)
 
+<br>
  
-### User Stories
-To specify what I had to make I created User stories, they can be found here: [User Stories](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/User%20stories.md)
+* ### User Stories
+To specify what I had to make I created User stories, they can be found in the project's repo here: [User Stories](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/User%20stories.md). Later on I improved them by doing research on them and they start looking like the ones on the right
 
-![First user stories](https://user-images.githubusercontent.com/73555911/150024612-8edd8d09-6e25-47ed-86c9-671a40e6e465.png)
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/73555911/150024612-8edd8d09-6e25-47ed-86c9-671a40e6e465.png" width=600 height=700></td> 
+    <td><img src="https://user-images.githubusercontent.com/73555911/150330114-3aaf7a38-7c79-4b0e-b939-2929647d5cd1.png" width=500 height=250></td> 
+  </tr>
+</table>
 
 
-### Front-end
+
+* ### Front-end
 I've chosen to get to know the React framework to create my front-end. I've chosen React because it's a popular framework and a lot of my peers are currently working with it, which makes asking for help a lot easier.
 
 
 
-### Back-end
+* ### Back-end
 Previous semester I worked with C# language for the back-end, because I like to know a bit of everything I've chosen Java for my backend, due to Java being a new language for me. My next search was for a good framework and I stranded with the popular Spring framework. We had a workshop about Java frameworks and the host was very excited about Spring, his excitement was contagious.
 
 
