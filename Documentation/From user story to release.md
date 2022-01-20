@@ -41,20 +41,29 @@ When I'm finished with the user story I'm going to create issues related to that
 ![Project board](https://user-images.githubusercontent.com/73555911/150214003-1750f910-7017-4dc0-92e3-47033b073b20.png)
 
 ## 3. Feature branch
-Because we're going to implement new features, I start by making a new branch for the issue `US 2 - Dashboard only accesisable when logged in #17`. I call the branch something similair and start working on it.
+Because we're going to implement new features, I start by making a new branch for the issue `US 2 - Dashboard only accesisable when logged in #17`. I call the branch for the front end something similair like `US2-Access-dashboard-when-logged-in` and start working on it. For the back end I created the branch called `US2-Get-all-devices
+`.
 
 
 ## 4. Implement
-Now I'm going to write the code for this issue on the designated branch.
+Now I'm going to write the code for this issue on the designated branch. I started off with the back end and implemented the controller with the service getting all the devices. 
 
 
 
 
 ## 5. Testing
+I wrote two implementation test, one for the happy flow and one for the bad one:
+![Integration tests](https://user-images.githubusercontent.com/73555911/150333206-4bc2b90f-0e23-42c5-83ed-db085e03fce9.png)
 
 
 
 
 ## 6. Release
-### Pull request
+Now that we implementend a (part) of the user story, we can release it to master. First we push the working code with tests to the designated branch. After I make a pull request for this branch. I work with the github flow that this images describes:
 <img src="https://i.postimg.cc/rwwdRDGc/Github-flow.png" width="485"/>
+
+
+* ### Pull request
+![image](https://user-images.githubusercontent.com/73555911/150332125-fbc55cb3-0794-49e0-8564-9a36e98a70c7.png)
+
+
