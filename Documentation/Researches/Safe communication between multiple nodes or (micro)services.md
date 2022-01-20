@@ -219,7 +219,7 @@ REST and SOAP are both used for sending requests over HTTP. I'm not going into d
 > with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server
 > -- <cite>[codecademy][7]</cite>
 
-[7]: https://whatis.techtarget.com/definition/monolithic-architecture#:~:text=A%20monolithic%20architecture%20is%20the,composed%20all%20in%20one%20piece.&text=In%20a%20tightly%2Dcoupled%20architecture,to%20be%20executed%20or%20compiled.
+[7]: https://whatis.techtarget.com/definition/monolithic-architecture
 
 
 <br>
@@ -334,9 +334,9 @@ This way you can restrict who can succesfully make calls to your services.
 >
 > Out of the three, the most popular is the mTLS. In this approach, each microservice must carry a public/private key pair. The client microservice then uses the key-pair to
 > authenticate itself to the receiving microservice through the mTLS.
-> -- <cite>[Amos Kingatua][15]</cite>
+> -- <cite>[Amos Kingatua][16]</cite>
 
-[15]: https://geekflare.com/securing-microservices/
+[16]: https://geekflare.com/securing-microservices/
 
 This looks somewhat the same as the tokens, but a technique I did not know was possible in microservices.
 
@@ -350,18 +350,18 @@ This looks somewhat the same as the tokens, but a technique I did not know was p
 > To achieve this, deploy an API gateway to screen all incoming requests for security issues before routing them to the appropriate microservices. The API gateway sits between
 > the client applications and the microservices. It then limits exposing the microservices while providing additional request management functions such as authentication, SSL
 > termination, protocol translation, monitoring, request routing, caching, and more.
-> -- <cite>[Amos Kingatua][15]</cite>
+> -- <cite>[Amos Kingatua][17]</cite>
 
-[15]: https://geekflare.com/securing-microservices/
+[17]: https://geekflare.com/securing-microservices/
 
 <br>
 
 * #### Secure docker environment
 > Most often, microservices rely on container technology. As such, securing the containers, both internally and externally, is one way of reducing the attack surface and the
 > risks.
-> -- <cite>[Amos Kingatua][15]</cite>
+> -- <cite>[Amos Kingatua][18]</cite>
 
-[15]: https://geekflare.com/securing-microservices/
+[18]: https://geekflare.com/securing-microservices/
 
 <br>
 
@@ -369,17 +369,51 @@ This looks somewhat the same as the tokens, but a technique I did not know was p
 > If someone tries to attack your API with hundreds of username and password combinations, it will likely take a while for them to authenticate successfully. Slowing down this
 > process even more is another way to protect your various endpoints. Using an approach like rate limiting, for instance, means that attackers can only make one or two attempts
 > per second, which may deter them from continuing credential stuffing attacks on your systems.
-> -- <cite>[Okta][15]</cite>
+> -- <cite>[Okta][19]</cite>
 
-[15]: https://www.okta.com/resources/whitepaper/8-ways-to-secure-your-microservices-architecture/
+[19]: https://www.okta.com/resources/whitepaper/8-ways-to-secure-your-microservices-architecture/
 
 
 ### 3.1 Are distributed systems more vulnerable to security threats?
-A lot of articles talk about the risk being higher compared to a monolithic system, because of a much more entrypoints to secure.
+A lot of articles talk about the risk being higher compared to a monolithic system, because of much more entrypoints to secure. An example from an article is:
+
+> A significant security consideration when choosing between a monolith and microservices is the number and size of attack surfaces. An attack surface is the sum of
+> vulnerabilities in an application — the smaller it is, the better. In a monolith, there is only one attack surface, albeit a sizable one. With microservices, however, each
+> service has its own attack surface, but of lesser size.
+> -- <cite>[Thomas Bush][20]</cite>
+
+[20]: https://nordicapis.com/which-is-more-secure-monolith-or-microservices/
+
+But another article also has to mention advantages to a micro service architecture:
+> They say microservices architecture is better security-wise as the functions can be tested separately. However, this technology might be a drawback as it is. Let us explain.
+> Each microservice has a separate API, they are easily adjusted and reconfigured not bothering the whole app. It will be running despite one or two services being down at the
+> moment. It is undoubtedly good. What’s worse is that each microservice also has a number of APIs and ports thus making an app prone to intrusions.
+> -- <cite>[Lambda Test][21]</cite>
+
+[21]: https://www.lambdatest.com/blog/does-microservices-architecture-influence-security-testing/
+
+
+So to answer the question, it depends on how many services you have and how well you secure it. But on large systems, I think it's way more vulnerable than a monolithic application. 
 
 
 ### 3.2 How to test if communication is secured?
+Start by acting like an attacker and try to communicate with API's through unexpected ways. This article has some good points as well:
+> This stage uses web application attacks, such as cross-site scripting, SQL injection and backdoors, to uncover a target’s vulnerabilities. Testers then try and exploit these
+> vulnerabilities, typically by escalating privileges, stealing data, intercepting traffic, etc., to understand the damage they can cause.
+> 
+> Rules For Api Security Testing
+> 
+> An API should provide expected output for a given input.
+> The inputs should appear within a particular range and values crossing the range must be rejected.
+> Any empty or null input must be rejected when it is unacceptable.
+> Incorrectly sized input must be rejected.
+> -- <cite>[Harry Davis][22]</cite>
+
+[22]: https://quick-adviser.com/what-are-the-methods-to-perform-security-testing-on-microservices/
+
 
 <br>
 
+
 ## Conclusion
+This research tells you something about what a distributed system is, but also what protocols the intercommunication might use and where their advantages are. If you do good research on what protocol is best for you, you already are one step closer to providing a good secure architecture. Beside that we also can look at multiple ways to secure your communication and work towards an overall good level of securiness. The only way to know for sure is to test your safety measures, for now it's hard to say how to do this. In the future I'd like to make a proof of concept and test it for real, but for now this research will provide enough information.
