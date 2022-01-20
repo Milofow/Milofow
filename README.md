@@ -10,7 +10,7 @@ I'm Milo Timmermans and I'm currently studying ICT software engineering at Fonty
 To help me prove some of the learning outcomes I'll be making a project. It will be a IoT dashboard, more information can be found in its repo [here](https://github.com/Milofow/front-end-dashboard)
 
 * ### C4
-It will be my first time working with distributed systems, therefore I started off easy with these simple architecture designs.
+To start of with implementing seperate services I first created some designs to get me started. This will be my first time working with distributed systems, therefore I started off easy with these simple architecture designs.
 <table>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/73555911/148978923-fd1f4930-7726-4bdc-8f81-0b9cb801e02e.jpg" width=500 height=250></td> 
@@ -25,20 +25,19 @@ Later when I had a better understanding of this distributed architecture, I impr
 <br>
  
 * ### User Stories
-To specify what I had to make I created User stories, they can be found in the project's repo here: [User Stories](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/User%20stories.md). Later on I improved them by doing research on them and they start looking like the ones on the right
+To specify what I had to make I created User stories, they can be found in the project's repo here: [User Stories](https://github.com/Milofow/front-end-dashboard/blob/master/documentation/User%20stories.md). Later on I improved them by doing research on them and they start looking like the one on the right
 
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/73555911/150024612-8edd8d09-6e25-47ed-86c9-671a40e6e465.png" width=600 height=700></td> 
-    <td><img src="https://user-images.githubusercontent.com/73555911/150330114-3aaf7a38-7c79-4b0e-b939-2929647d5cd1.png" width=500 height=250></td> 
+    <td><img src="https://user-images.githubusercontent.com/73555911/150345639-cd9dc210-a2c9-4d00-b962-654a83e6bb75.png"></td> 
+    <td><img src="https://user-images.githubusercontent.com/73555911/150345832-1917a526-554a-4310-8bae-ee53fd93fa03.png"></td> 
   </tr>
 </table>
 
 
 
 * ### Front-end
-I've chosen to get to know the React framework to create my front-end. I've chosen React because it's a popular framework and a lot of my peers are currently working with it, which makes asking for help a lot easier.
-
+I've chosen to get to know the React framework to create my front-end. I've chosen React because it's a popular framework and a lot of my peers are currently working with it, which makes asking for help a lot easier. Because it's so popular there is a lot of documentation, which makes it great for learning.
 
 
 * ### Back-end
@@ -46,6 +45,7 @@ Previous semester I worked with C# language for the back-end, because I like to 
 
 
 
+<br>
 
 
 
@@ -63,13 +63,14 @@ I first started off with a login system for my project. I used Auth0 as it works
 - https://www.youtube.com/watch?v=MqczHS3Z2bc
 - https://auth0.com/docs/quickstart/spa/react
 
+<br>
 
 #### 2. MQTT
 Here I build a simple form for sending a message to services subscribed to the topic 'presence', to get a little bit known with how mqtt works. I'm using websockets to send the data to the MQTT broker and it sends it back to the console. The MQTT broker I'm using is Mosquitto.
+
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/73555911/142778419-c3f36e67-2fbe-425b-ae89-df1d5d518d63.png" width=500 height=250></td> 
-    <td><img src="https://user-images.githubusercontent.com/73555911/142778454-6641c44f-4ec8-418e-b13c-96c66247359c.png" width=500 height=250></td> 
+    <td><img src="https://user-images.githubusercontent.com/73555911/142778419-c3f36e67-2fbe-425b-ae89-df1d5d518d63.png"></td>  
   </tr>
  </table>
 
@@ -77,19 +78,24 @@ Here I build a simple form for sending a message to services subscribed to the t
 ##### Sources
 - http://www.steves-internet-guide.com/mqtt-websockets/
 
+<br>
 
 #### 3. API Devices service
-Because this semester is about distributed systems I created a separate API service for handling this which can be found [here](https://github.com/Milofow/devices-service)
+Because this semester is all about distributed systems, I created a separate API service for handling this which can be found [here](https://github.com/Milofow/devices-service)
 
+This is what my controller looks like for handling requests with methods like get, put, delete and post.
 ![IntelliJ](https://user-images.githubusercontent.com/73555911/150022513-292db6f8-251f-4f65-a627-8c88ff71a2b6.png)
 
+<br>
 
+You can make simple requests, we can test this with postman, that looks like:
 ![API GET request](https://user-images.githubusercontent.com/73555911/150023264-27a7c8de-34c1-4f4d-9a2d-bdfed4b248e8.gif)
 
 
 ##### Sources
 - https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&ab_channel=JavaBrains
 
+<br>
 
 #### 4. Discovery service
 Because I was following JavaBrains's course, I created a discovery service that detects running services. This could come in handy if I was using more or back up services.
@@ -97,16 +103,13 @@ Because I was following JavaBrains's course, I created a discovery service that 
 ![image](https://user-images.githubusercontent.com/73555911/150024022-b78f5def-8c6f-461b-917d-62f69cbd3b35.png)
 
 
-
-
-I did not implement the discovery service later on, because my circumstances did not ask for a discovery service, thus it being needless.
+In the end I did not implement the discovery service later on, because my circumstances did not ask for a discovery service, thus it being needless.
 
 
 ##### Sources
 - https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas&ab_channel=JavaBrains
 
-
-
+<br>
 
 ### Outcome 2. You use software tooling and methodology that continuously monitors and improve the software quality during software development.
 
@@ -117,7 +120,8 @@ Here you can see one of those tests that mimics the behavior of a real request a
 ![image](https://user-images.githubusercontent.com/73555911/149328098-aa5c6383-875a-4037-b3a3-020efa327a24.png)
 
 I also wrote a little research on these kind of tests which can be found here: [MockMvc Spring testing](https://github.com/Milofow/S3-Portfolio/blob/main/Research/MockMvc%20Spring%20testing.md)
-Sources:
+
+<br>
 
 #### 2. Automated tests on push
 To ensure a good software management system I want to run my tests on certain Github actions I perform. Like pushing to development from a feature branch, I would like to check if my tests are still passing, because if they aren't I may pushed something to development that isn't even working.
@@ -125,34 +129,53 @@ To ensure a good software management system I want to run my tests on certain Gi
 As you can see in the image below I merged a feature branch into development after the PR. It runned all the tests and the passed.
 ![image](https://user-images.githubusercontent.com/73555911/149326354-cbf9376e-b995-4d49-8e7a-568942b0cf31.png)
 
-
-##### Sources
-- 
+<br>
 
 #### 3. Code review
+In our group project we did a lot of code reviews. I did reviews and others did reviews on my code. This way you can get a fresh opinion on your code and someone else might notice something you don't.
 
-#### 4. Exception testing
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/73555911/150350127-25e63ef9-2dfd-48bf-afe9-0bae30ce2503.png"></td>  
+    <td><img src="https://user-images.githubusercontent.com/73555911/150350277-c2b2ba66-5da2-4bed-ac5d-6c0c9bc3ed3b.png"></td>  
+  </tr>
+ </table>
 
-Sources:
+
+<br>
 
 
 ### Outcome 3. You design and implement a (semi)automated software release process that matches the needs of the project context.
 
 #### 1. Docker containers
-Continuously delivery needs a way to deliver my product to the outside world, therefore I invested Docker because docker runs in its own environment making it very easy to run it elsewhere and spread your product. To create a docker from your project you'll need a dockerfile, this file has all the steps it needs to create a docker instance so it can run everywhere. It mostly tells what dependencies it needs and how to create a final build to deploy. 
+To start of with working with containers, I chose Docker because it has great documentation and is widely used, therefore I can find a lot of tutorials about it. It works pretty simple it only need a dockerfile, this file has all the steps it needs to create a docker instance so it can run everywhere. It mostly tells what dependencies it needs and how to create a final build to deploy. 
 
 My dockerfiles can be found here:
 [Device service](https://github.com/Milofow/devices-service/blob/master/Dockerfile)
-[Dashboard front end]()
+[Dashboard front end](https://github.com/Milofow/front-end-dashboard/blob/master/Dockerfile)
+
 
 ##### Sources
-- https://docs.docker.com/
+- [Docker docs](https://docs.docker.com/)
+
+<br>
+
+#### 2. Deliver to Docker hub
+Continuously delivery needs a way to deliver my product to the outside world, therefore I invested Docker because docker runs in its own environment making it very easy to run it elsewhere and spread your product. It wraps my project into a docker using the docker file and finally pushing it to docker hub with version. Down below you can see the succeeded workflow that when pushed to master branch, it will deliver to docker hub. 
 
 
-#### 2. Deploy web services
-push to docker
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/73555911/150348776-4841656a-c08f-401b-9b59-3b281e5389b6.png"></td>  
+    <td><img src="https://user-images.githubusercontent.com/73555911/150349051-44e0874e-5cd2-4ffb-8e71-bf393a2729db.png"></td>  
+  </tr>
+ </table>
+ 
+ 
 ##### Sources
+- [Docker docs](https://docs.docker.com/)
 
+<br>
 
 ### Outcome 4. You act in a professional manner during software development and learning.
 
@@ -161,8 +184,7 @@ To start working more user story oriented I started a project board on Github. M
 
 ![Project board](https://user-images.githubusercontent.com/73555911/148846433-2c75a89f-bc5c-48de-a19e-09c929491d60.png)
 
-
-
+<br>
 
 #### 2. Github flow
 To add a little bit more of professionalism, as a preparation for the future. I try working with the so called Github flow. This means having seperate branches, for seperate stages in your project. Because the project isn't to big I will be working with the flow as it's explained in the picture below:
@@ -170,6 +192,7 @@ To add a little bit more of professionalism, as a preparation for the future. I 
 ![image](https://user-images.githubusercontent.com/73555911/148848367-a49769a0-739f-4366-8399-f56265434b78.png)
 <i> Source: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow </i>
 
+<br>
 
 #### 3. Researches
 
