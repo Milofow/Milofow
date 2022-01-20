@@ -27,6 +27,7 @@ First I'm going to create a user story that is related to my application. I'm go
             <li>I want to see the device's name</li>
             <li>I want to see the device's status</li>
             <li>I want to be able to control them from this overview</li>
+            <li>If no devices are available I want to see this on my dashboard</li>
           </ul>
         </td>
     </tr>
