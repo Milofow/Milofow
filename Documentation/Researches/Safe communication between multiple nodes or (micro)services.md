@@ -299,8 +299,9 @@ If you choose to build your application on microservice architecture you probabl
 
 
 ## 3. Where to secure communication?
+I found a lot of possibilities, two articles described a lot of measures to take clearly. I'll quote some places where to secure a distributed system.
 
-#### Do everything over HTTPS
+* #### Do everything over HTTPS
 While reading articles all over the web I found one saying to work over HTTPS:
 > You should use HTTPS everywhere, even for static sites. If you have an HTTP connection, change it to an HTTPS one. Make sure all aspects of your workflow—from Maven
 > repositories to XSDs—refer to HTTPS URIs.
@@ -310,19 +311,24 @@ While reading articles all over the web I found one saying to work over HTTPS:
 
 HTTPS encrypts your request meaning people can intercept the request or respone but can't decrypt it nor read it.
 
+<br>
 
-#### Dependencies
+* #### Access and identity tokens
+> In microservices deployment, a large number of applications and services will require secure authorization and access control. An authorization framework such as the OAuth 2.0
+> and OpenID enables you to process the tokens securely, hence protect your microservices. Consequently, this allows third-party applications to access other services or data
+> from users.
+> 
+> In a typical deployment, the main application will prompt the user to authorize the third party service. Upon accepting this, the application generates an access token for the
+> session.
+> -- <cite>[Amos Kingatua][15]</cite>
 
+[15]: https://geekflare.com/securing-microservices/
 
+This way you can restrict who can succesfully make calls to your services.
 
-#### Access and identity tokens
+<br>
 
-
-
-#### Slow down attackers
-
-
-#### Service to service security
+* #### Service to service security
 > Generally, there are three main techniques that you can use to secure the interservice communications. These are the Trust the network, JSON Web Token (JWT), and Mutual
 > Transport Layer Security (mTLS, or Mutual TLS). 
 >
@@ -332,11 +338,40 @@ HTTPS encrypts your request meaning people can intercept the request or respone 
 
 [15]: https://geekflare.com/securing-microservices/
 
+This looks somewhat the same as the tokens, but a technique I did not know was possible in microservices.
 
+<br>
 
+* #### API gateway
+> Generally, the microservices consist of several components distributed over different networks and accessible from a wide range of systems and clients. Exposing the\
+> microservices increases vulnerabilities and security risks. One way to protect them is to create a single and secure entry point that helps you to centralize all access from
+> external systems and clients.
+> 
+> To achieve this, deploy an API gateway to screen all incoming requests for security issues before routing them to the appropriate microservices. The API gateway sits between
+> the client applications and the microservices. It then limits exposing the microservices while providing additional request management functions such as authentication, SSL
+> termination, protocol translation, monitoring, request routing, caching, and more.
+> -- <cite>[Amos Kingatua][15]</cite>
 
-#### API gateway
-#### Secure docker environment
+[15]: https://geekflare.com/securing-microservices/
+
+<br>
+
+* #### Secure docker environment
+> Most often, microservices rely on container technology. As such, securing the containers, both internally and externally, is one way of reducing the attack surface and the
+> risks.
+> -- <cite>[Amos Kingatua][15]</cite>
+
+[15]: https://geekflare.com/securing-microservices/
+
+<br>
+
+* #### Slow down attackers
+> If someone tries to attack your API with hundreds of username and password combinations, it will likely take a while for them to authenticate successfully. Slowing down this
+> process even more is another way to protect your various endpoints. Using an approach like rate limiting, for instance, means that attackers can only make one or two attempts
+> per second, which may deter them from continuing credential stuffing attacks on your systems.
+> -- <cite>[Okta][15]</cite>
+
+[15]: https://www.okta.com/resources/whitepaper/8-ways-to-secure-your-microservices-architecture/
 
 
 ### 3.1 Are distributed systems more vulnerable to security threats?
@@ -344,5 +379,7 @@ A lot of articles talk about the risk being higher compared to a monolithic syst
 
 
 ### 3.2 How to test if communication is secured?
+
+<br>
 
 ## Conclusion
