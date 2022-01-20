@@ -28,22 +28,9 @@ To make sure I get a reliable and valid outcome on this research, I used the fol
 
 **Library:**
   * Literature study
-  * Available product analysis (possible)
-  * Best good and bad practices (possible)
-  * Community research (possible)
-  * Expert interview (possible)
 
-**Field:**
-  * Problem analysis (possible)
- 
 **Lab:**
-  * Computer simulation (possible)
-  * Data analytics (possible)
-  * Security test (possible)
-
-**Workshop:**
-  * Decomposition (possible)
-  * Multi-criteria decision making (possible)
+  * Security test (Future implementation)
 
 
 
