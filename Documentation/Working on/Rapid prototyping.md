@@ -19,4 +19,7 @@ A way to come up with prototypes is the crazy 8s method
 
 <i>Source: https://www.invisionapp.com/defined/rapid-prototyping</i>
 
-an easy way to do rapid prototyping is to do paper prototyping, it's cost efficient fast and everyone can do it. Because paper prototypes normally look sketchy users tend to give more honest opinions because it's just a sketch. Paper prototyping is just drawing prototypes with some paper and a pen or maybe create one a little advance with doing some cutting en sticking parts together
+an easy way to do rapid prototyping is to do paper prototyping, it's cost efficient fast and everyone can do it. Because paper prototypes normally look sketchy users tend to give more honest opinions because it's just a sketch. Paper prototyping is just drawing prototypes with some paper and a pen or maybe create one a little advance with doing some cutting en sticking parts together.
+
+
+if you go the testing bit let one person be "the computer" and one the interviewer. Being the computer means this person only handles the appropriate screens that a user requests or not.
