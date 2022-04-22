@@ -1,4 +1,6 @@
-# Rapid prototyping
+# Prototyping
+
+## Rapid prototyping
 To waste as little time and money on validating your prototype something called rapid prototyping was invented. 
 The course of creating very much yet small and very low fidelity prototypes to test on your users.
 
